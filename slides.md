@@ -1,0 +1,90 @@
+---
+theme: dracula
+backgroundSize: cover
+title: Generative Remote UI for Flutter
+info: |
+  ## Generative Remote UI for Flutter
+  Kolloquium zur Bachelorarbeit, HdM Stuttgart
+class: text-left
+drawings:
+  persist: false
+transition: slide-left
+mdc: true
+duration: 15min
+hideInToc: true
+---
+
+<div class="absolute left-12 top-1/4">
+
+# Builder Pattern
+
+in Flutter <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" width="50px" style="display: inline; vertical-align: middle;">
+
+Design Patterns für moderne App-Entwicklung
+
+<div class="pt-12">
+  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
+  </span>
+</div>
+
+</div>
+
+<!--
+Ich präsentiere euch heute das Builder Pattern. Um das Pattern anschaulich vorzustellen, widmen wir uns der Erstellung von Burgern und nutzen dabei Flutter – ein Framework, das es ermöglicht, aus einer Codebase Apps für iOS, Android und Web zu entwickeln.
+
+Verwendet wird die Programmiersprache Dart, die eine Java-ähnliche Syntax bietet und leicht zu lesen ist.
+-->
+
+---
+hideInToc: true
+disabled: true
+
+src: ./pages/1_agenda.md
+---
+---
+src: ./pages/2_einstiegsproblem.md
+---
+
+---
+src: ./pages/3_was_ist_builder_pattern.md
+---
+
+---
+src: ./pages/4_beispiel_simpel_burger.md
+---
+
+---
+src: ./pages/5_immutable_vs_mutable.md
+---
+
+---
+src: ./pages/6_beispiel_method_chaining.md
+---
+
+---
+src: ./pages/7_beispiel_director.md
+---
+
+---
+src: ./pages/8_live_demo_flutter.md
+---
+
+---
+src: ./pages/9_klassendiagramm.md
+---
+
+---
+src: ./pages/10_vorteile_nachteile.md
+---
+
+---
+src: ./pages/11_vergleich_factory_pattern.md
+---
+
+---
+src: ./pages/12_quellen.md
+---
+
+---
+src: ./pages/13_diskussion.md
+---
