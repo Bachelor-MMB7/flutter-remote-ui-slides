@@ -1,0 +1,5 @@
+allowBuilds:
+  # esbuild is the bundler Slidev runs on, its build step is required
+  esbuild: true
+  # only needed for `pnpm export` (PDF), pulls a Chromium of about 150 MB
+  playwright-chromium: false
