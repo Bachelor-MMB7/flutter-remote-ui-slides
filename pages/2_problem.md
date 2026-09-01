@@ -6,9 +6,9 @@
   <p>Every variant is a new build</p>
 </div>
 
-<p class="path-caption">Bound to a multi-step app store release process on both major platforms <Ref n="2" /><Ref n="3" /></p>
+<p class="path-caption" v-click="1">Bound to a multi-step app store release process on both major platforms <Ref n="2" /><Ref n="3" /></p>
 
-<div class="release-path">
+<div class="release-path" v-click="1">
   <div class="station origin">
     <div class="dot"></div>
     <div class="label">One changed<br />component</div>
@@ -39,11 +39,11 @@
 </div>
 
 <div class="cadence">
-  <div class="item">
+  <div class="item" v-click="2">
     <div class="value web">multiple times per day</div>
     <div class="tag">Web applications</div>
   </div>
-  <div class="item">
+  <div class="item" v-click="2">
     <div class="value">once every two weeks</div>
     <div class="tag">Facebook, Netflix <Ref n="6" /></div>
   </div>
@@ -67,7 +67,10 @@ Ueberleitung zur Grafik — "the mobile applications that drive these operations
 remain bound to a multi-step app store release process on both major platforms"
 (Kap. 1-1)
 
-Grafik als Ganzes zeigen, nicht Station fuer Station vorlesen. Der Punkt ist die
+Drei Klicks: die ganze Kette auf einmal, dann Web, dann Mobile. Beim Aufbau sprechen, nicht die Notizen vorlesen.
+
+Der Taktungsvergleich ist die Pointe der Folie — Web zuerst als Referenzpunkt,
+dann Mobile dagegen. Erst dadurch sind zwei Wochen ein Faktor und keine Zahl. Der Punkt ist die
 Kette: ein einzelner Button loest den ganzen Weg aus.
 
 Letzte Station: automatische Updates heissen, die App aktualisiert sich ohne
