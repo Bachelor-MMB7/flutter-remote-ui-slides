@@ -11,7 +11,7 @@
   font-weight: 600;
   letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #ff4d6a;
+  color: rgba(242, 243, 247, 0.6);
   margin-bottom: 1.1rem;
 }
 
@@ -31,11 +31,11 @@
   width: 4.5rem;
   height: 2px;
   margin: 1.8rem 0 1.1rem;
-  background: linear-gradient(to right, #ff4d6a, rgba(189, 147, 249, 0.6));
+  background: linear-gradient(to right, rgba(189, 147, 249, 0.85), rgba(189, 147, 249, 0.1));
 }
 
 .title-slide .title-author {
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   color: rgba(242, 243, 247, 0.82);
 }
 
@@ -51,7 +51,7 @@
 }
 
 .title-slide .title-meta .label {
-  color: rgba(242, 243, 247, 0.34);
+  color: rgba(242, 243, 247, 0.46);
   display: inline-block;
   min-width: 6.6rem;
   text-align: right;
@@ -94,15 +94,6 @@
   );
 }
 
-/* weicher roter Schein im Hintergrund (HdM-Rot) */
-.title-slide .title-glow {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(45rem 30rem at 88% 12%, rgba(229, 20, 51, 0.22), transparent 70%),
-    radial-gradient(38rem 28rem at 8% 95%, rgba(120, 140, 255, 0.1), transparent 70%);
-}
 
 .title-slide .title-device {
   position: absolute;
@@ -117,4 +108,16 @@
 .title-slide .title-device svg {
   height: 100%;
   width: auto;
+}
+
+/* weicher kalter Schein unten links */
+.title-slide .title-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(
+    38rem 28rem at 8% 95%,
+    rgba(120, 140, 255, 0.1),
+    rgba(120, 140, 255, 0) 70%
+  );
 }
