@@ -116,3 +116,6 @@ src: ./pages/10_future_work.md
 ---
 src: ./pages/11_conclusion.md
 ---
+---
+src: ./pages/12_references.md
+---

@@ -122,3 +122,93 @@
   );
 }
 
+
+/* ---- Release-Pfad auf der Problemfolie ---- */
+
+.release-path {
+  display: flex;
+  align-items: flex-start;
+  margin: 2rem 0 1.6rem;
+}
+
+.release-path .station {
+  flex: 0 0 auto;
+  width: 8.2rem;
+  text-align: center;
+}
+
+.release-path .dot {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin: 0 auto 0.6rem;
+  border-radius: 999px;
+  background: rgba(242, 243, 247, 0.35);
+}
+
+.release-path .origin .dot,
+.release-path .end .dot {
+  background: #bd93f9;
+}
+
+.release-path .label {
+  font-size: 0.8rem;
+  line-height: 1.35;
+  color: rgba(242, 243, 247, 0.85);
+}
+
+.release-path .note {
+  margin-top: 0.35rem;
+  font-size: 0.65rem;
+  line-height: 1.35;
+  color: rgba(242, 243, 247, 0.5);
+}
+
+.release-path .link {
+  flex: 1 1 auto;
+  height: 1px;
+  margin-top: 0.29rem;
+  background: rgba(242, 243, 247, 0.22);
+}
+
+.references p {
+  font-size: 0.72rem;
+  line-height: 1.6;
+  color: rgba(242, 243, 247, 0.7);
+}
+
+.lead p {
+  margin: 0 0 0.5rem;
+  font-size: 1.35rem;
+  line-height: 1.5;
+  color: rgba(242, 243, 247, 0.92);
+}
+
+.path-caption {
+  margin: 1.6rem 0 0;
+  font-size: 0.95rem;
+  color: rgba(242, 243, 247, 0.6);
+}
+
+/* Taktungsvergleich auf der Problemfolie */
+
+.cadence {
+  display: flex;
+  gap: 4.5rem;
+  margin-top: 2.6rem;
+}
+
+.cadence .value {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgba(242, 243, 247, 0.9);
+}
+
+.cadence .value.web {
+  color: #bd93f9;
+}
+
+.cadence .tag {
+  margin-top: 0.3rem;
+  font-size: 0.78rem;
+  color: rgba(242, 243, 247, 0.5);
+}
