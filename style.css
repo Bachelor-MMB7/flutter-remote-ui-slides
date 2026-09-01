@@ -3,3 +3,118 @@
 .slidev-layout {
   background-color: #0c0f1a !important;
 }
+
+/* ---- Titelfolie: Logo-Lockup HdM + pyck ---- */
+
+.title-slide .title-kicker {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #ff4d6a;
+  margin-bottom: 1.1rem;
+}
+
+#app .slidev-layout.title-slide h1.title-headline {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #f2f3f7 !important;
+  margin: 0;
+}
+
+#app .slidev-layout.title-slide h1.title-headline .accent {
+  color: #bd93f9 !important;
+}
+
+.title-slide .title-rule {
+  width: 4.5rem;
+  height: 2px;
+  margin: 1.8rem 0 1.1rem;
+  background: linear-gradient(to right, #ff4d6a, rgba(189, 147, 249, 0.6));
+}
+
+.title-slide .title-author {
+  font-size: 1.05rem;
+  color: rgba(242, 243, 247, 0.82);
+}
+
+.title-slide .title-author .sep {
+  color: rgba(242, 243, 247, 0.35);
+  padding: 0 0.35rem;
+}
+
+.title-slide .title-meta {
+  font-size: 0.78rem;
+  line-height: 1.65;
+  color: rgba(242, 243, 247, 0.62);
+}
+
+.title-slide .title-meta .label {
+  color: rgba(242, 243, 247, 0.34);
+  display: inline-block;
+  min-width: 6.6rem;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+
+.title-slide .title-meta.meta-left .label {
+  text-align: left;
+  padding-right: 0.6rem;
+}
+
+.title-slide .title-meta .date {
+  margin-top: 0.5rem;
+  color: rgba(242, 243, 247, 0.42);
+}
+
+.title-slide .title-logos {
+  z-index: 10;
+}
+
+.title-slide .logo-hdm {
+  height: 3.4rem;
+  opacity: 0.92;
+}
+
+.title-slide .logo-pyck {
+  height: 2.1rem;
+  opacity: 0.92;
+}
+
+.title-slide .logo-divider {
+  width: 1px;
+  height: 2.6rem;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgba(255, 255, 255, 0.28) 30%,
+    rgba(255, 255, 255, 0.28) 70%,
+    transparent
+  );
+}
+
+/* weicher roter Schein im Hintergrund (HdM-Rot) */
+.title-slide .title-glow {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(45rem 30rem at 88% 12%, rgba(229, 20, 51, 0.22), transparent 70%),
+    radial-gradient(38rem 28rem at 8% 95%, rgba(120, 140, 255, 0.1), transparent 70%);
+}
+
+.title-slide .title-device {
+  position: absolute;
+  right: 3rem;
+  top: 14%;
+  height: 19rem;
+  opacity: 0.75;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.title-slide .title-device svg {
+  height: 100%;
+  width: auto;
+}
