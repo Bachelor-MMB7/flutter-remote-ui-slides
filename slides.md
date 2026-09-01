@@ -84,53 +84,35 @@ done at pyck on logistics apps. Then straight to the agenda.
 ---
 hideInToc: true
 disabled: true
-
 src: ./pages/1_agenda.md
 ---
 ---
-src: ./pages/2_einstiegsproblem.md
+src: ./pages/2_problem.md
 ---
-
 ---
-src: ./pages/3_was_ist_builder_pattern.md
+src: ./pages/3_research_question.md
 ---
-
 ---
-src: ./pages/4_beispiel_simpel_burger.md
+src: ./pages/4_approach.md
 ---
-
 ---
-src: ./pages/5_immutable_vs_mutable.md
+src: ./pages/5_finding_rq1.md
 ---
-
 ---
-src: ./pages/6_beispiel_method_chaining.md
+src: ./pages/6_finding_rq2.md
 ---
-
 ---
-src: ./pages/7_beispiel_director.md
+src: ./pages/7_finding_rq3.md
 ---
-
 ---
-src: ./pages/8_live_demo_flutter.md
+src: ./pages/8_contribution.md
 ---
-
 ---
-src: ./pages/9_klassendiagramm.md
+src: ./pages/9_limitations.md
 ---
-
 ---
-src: ./pages/10_vorteile_nachteile.md
+src: ./pages/10_future_work.md
 ---
-
 ---
-src: ./pages/11_vergleich_factory_pattern.md
----
-
----
-src: ./pages/12_quellen.md
----
-
----
-src: ./pages/13_diskussion.md
+src: ./pages/11_conclusion.md
 ---
