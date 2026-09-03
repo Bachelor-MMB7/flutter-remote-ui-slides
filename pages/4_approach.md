@@ -3,7 +3,7 @@
 Because a release build is fixed machine code, the executable UI capabilities and
 widget implementations available to the app are set when it is compiled. Without a
 mechanism for composing them at runtime, changing the structure of a screen means
-building and shipping the app again. <Ref n="7" />
+building and shipping the app again. <Ref n="13" />
 
 **Server-driven UI on Remote Flutter Widgets**
 The app carries a fixed set of eleven warehouse widgets. A definition composes

@@ -238,3 +238,368 @@
   font-size: 0.7rem;
   color: rgba(242, 243, 247, 0.5);
 }
+
+/* Platzhalter fuer den Demo-Clip */
+
+.video-placeholder,
+.demo-video {
+  width: 50%;
+  margin: 1.6rem 0 0;
+  aspect-ratio: 16 / 9;
+  border-radius: 0.5rem;
+}
+
+.video-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px dashed rgba(189, 147, 249, 0.45);
+  background: rgba(189, 147, 249, 0.05);
+}
+
+.video-placeholder .vp-label {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: rgba(189, 147, 249, 0.9);
+}
+
+.video-placeholder .vp-meta {
+  font-size: 0.72rem;
+  color: rgba(242, 243, 247, 0.5);
+}
+
+.demo-video {
+  object-fit: cover;
+  border: 1px solid rgba(242, 243, 247, 0.14);
+}
+
+/* Zielkriterium ueber den Befunden */
+
+#app .slidev-layout .criterion {
+  margin: 0 0 1.4rem;
+  padding: 0.5rem 0.8rem;
+  border-left: 2px solid rgba(189, 147, 249, 0.5);
+  background: rgba(189, 147, 249, 0.05);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: rgba(242, 243, 247, 0.6);
+}
+
+#app .slidev-layout .criterion .so {
+  margin-right: 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: rgba(189, 147, 249, 0.9);
+}
+
+/* Fragestellung mit Erfolgskriterien */
+
+.rq-list {
+  margin-top: 1.8rem;
+}
+
+.rq-list .rq {
+  display: grid;
+  grid-template-columns: 3.4rem 1fr;
+  margin-bottom: 1.2rem;
+}
+
+.rq-list .rq-key {
+  grid-row: span 2;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #bd93f9;
+}
+
+.rq-list .rq-text {
+  font-size: 1.05rem;
+  color: rgba(242, 243, 247, 0.92);
+}
+
+.rq-list .rq-so {
+  margin-top: 0.25rem;
+  font-size: 0.72rem;
+  line-height: 1.45;
+  color: rgba(242, 243, 247, 0.5);
+}
+
+/* Moeglichkeitsraum SDUI + Auswahlbegruendung */
+
+.ways {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.55rem 2rem;
+  margin-top: 1.2rem;
+}
+
+.ways .way {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "kind ex"
+    "desc ex";
+  column-gap: 0.8rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(242, 243, 247, 0.07);
+}
+
+.ways .way-kind {
+  grid-area: kind;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: rgba(242, 243, 247, 0.92);
+}
+
+.ways .way-ex {
+  grid-area: ex;
+  align-self: center;
+  font-size: 0.75rem;
+  color: #bd93f9;
+  white-space: nowrap;
+}
+
+.ways .way-desc {
+  grid-area: desc;
+  margin-top: 0.15rem;
+  font-size: 0.68rem;
+  line-height: 1.4;
+  color: rgba(242, 243, 247, 0.5);
+}
+
+.choice {
+  margin-top: 1.1rem;
+  padding: 0.8rem 1rem;
+  border-left: 2px solid rgba(189, 147, 249, 0.55);
+  background: rgba(189, 147, 249, 0.06);
+}
+
+.choice-head {
+  margin-bottom: 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #bd93f9;
+}
+
+#app .slidev-layout .choice ol {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+#app .slidev-layout .choice li {
+  font-size: 0.76rem;
+  line-height: 1.55;
+  color: rgba(242, 243, 247, 0.78);
+}
+
+/* RFW-Definition zeigen */
+
+.def-split {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 2rem;
+  margin-top: 0.3rem;
+}
+
+/* Slidev setzt Codegroesse per !important ueber diese Variablen */
+.def-code {
+  --slidev-code-font-size: 0.66rem;
+  --slidev-code-line-height: 1.5;
+  --slidev-code-padding: 0.7rem 0.9rem;
+  --slidev-code-margin: 0;
+}
+
+.def-notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.1rem;
+}
+
+.def-note .dn-key {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.76rem;
+  color: #bd93f9;
+}
+
+.def-note .dn-text {
+  margin-top: 0.25rem;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: rgba(242, 243, 247, 0.62);
+}
+
+.def-file {
+  margin-bottom: 0.45rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.62rem;
+  color: rgba(242, 243, 247, 0.45);
+}
+
+/* Evaluationsaufbau */
+
+.setup-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  margin-top: 1.2rem;
+}
+
+.setup-grid .sg-col {
+  padding-top: 0.6rem;
+  border-top: 2px solid rgba(189, 147, 249, 0.4);
+}
+
+.setup-grid .sg-rq {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #bd93f9;
+}
+
+.setup-grid .sg-method {
+  margin-top: 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgba(242, 243, 247, 0.94);
+}
+
+.setup-grid .sg-detail {
+  margin-top: 0.45rem;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: rgba(242, 243, 247, 0.62);
+}
+
+.setup-grid .sg-anchor {
+  margin-top: 0.55rem;
+  font-size: 0.68rem;
+  color: rgba(242, 243, 247, 0.45);
+}
+
+.setup-bar {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(242, 243, 247, 0.09);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 2rem;
+}
+
+.setup-bar .sb-item {
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: rgba(242, 243, 247, 0.6);
+}
+
+.setup-bar .sb-key {
+  display: inline-block;
+  min-width: 4.2rem;
+  font-weight: 700;
+  color: rgba(242, 243, 247, 0.4);
+}
+
+/* Conclusion */
+#app .slidev-layout .outcomes {
+  margin-top: 1.6rem;
+}
+#app .slidev-layout .outcomes p {
+  margin: 0 0 0.55rem;
+  font-size: 1.02rem;
+  line-height: 1.5;
+}
+#app .slidev-layout .repo {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: rgba(242, 243, 247, 0.55);
+}
+
+/* Conclusion — Contribution-Kasten */
+#app .slidev-layout .closing {
+  margin: 1.5rem 0 1.4rem;
+  padding: 0.75rem 1rem;
+  border-left: 2px solid rgba(189, 147, 249, 0.55);
+  background: rgba(189, 147, 249, 0.06);
+}
+#app .slidev-layout .closing-head {
+  margin-bottom: 0.35rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #bd93f9;
+}
+#app .slidev-layout .closing p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+/* Demonstration — Video links, Sprechanker rechts */
+#app .slidev-layout .demo-stage {
+  display: grid;
+  grid-template-columns: 1.55fr 1fr;
+  gap: 1.6rem;
+  align-items: center;
+  margin-top: 1.4rem;
+}
+#app .slidev-layout .video-placeholder.demo-wide,
+#app .slidev-layout .demo-video.demo-wide {
+  width: 100%;
+  margin: 0;
+}
+#app .slidev-layout .demo-beats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+#app .slidev-layout .beat {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  font-size: 0.92rem;
+  line-height: 1.4;
+}
+#app .slidev-layout .beat-n {
+  flex: 0 0 1.25rem;
+  height: 1.25rem;
+  border-radius: 50%;
+  background: rgba(189, 147, 249, 0.16);
+  color: #bd93f9;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.25rem;
+}
+#app .slidev-layout .beat-t {
+  color: rgba(242, 243, 247, 0.88);
+}
+
+/* RQ1 — Requirement Traceability Matrix als Raster */
+#app .slidev-layout .rtm {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.6rem;
+  margin: 1.5rem 0 1.1rem;
+}
+#app .slidev-layout .rtm-item {
+  padding: 0.7rem 0.5rem;
+  border-top: 2px solid rgba(80, 250, 123, 0.45);
+  background: rgba(80, 250, 123, 0.05);
+  text-align: center;
+}
+#app .slidev-layout .rtm-n {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #50fa7b;
+}
+#app .slidev-layout .rtm-g {
+  margin-top: 0.2rem;
+  font-size: 0.72rem;
+  color: rgba(242, 243, 247, 0.62);
+}
+#app .slidev-layout .rtm-total {
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: rgba(242, 243, 247, 0.72);
+}

@@ -1,5 +1,7 @@
 # RQ3 — No perceptible cost
 
+<p class="criterion"><span class="so">SO3</span> Median and 95th percentile below 100 ms in both implementations · difference in median render time below one frame period (16.7 ms at 60 Hz)</p>
+
 **0.3 ms** difference in median render time — far less than one frame period
 (16.7 ms at 60 Hz).
 

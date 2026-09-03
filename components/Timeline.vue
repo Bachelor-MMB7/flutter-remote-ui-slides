@@ -5,7 +5,7 @@ import { useNav } from '@slidev/client'
 const { currentPage } = useNav()
 
 // Seiten auf denen der Zeitstrahl ausgeblendet wird
-const hiddenPages = [1, 11, 12]
+const hiddenPages = [1, 14, 15]
 
 // Einblenden nach 1,1 Sek, Ausblenden nach 5 Sek
 const isVisible = ref(false)
@@ -30,11 +30,11 @@ watch(currentPage, () => {
 const sections = [
   { name: 'Problem', start: 2, end: 2 },
   { name: 'Question', start: 3, end: 3 },
-  { name: 'Approach', start: 4, end: 4 },
-  { name: 'Findings', start: 5, end: 7 },
-  { name: 'Contribution', start: 8, end: 8 },
-  { name: 'Limits', start: 9, end: 9 },
-  { name: 'Outlook', start: 10, end: 11 },
+  { name: 'Approach', start: 4, end: 6 },
+  { name: 'Demo', start: 7, end: 7 },
+  { name: 'Findings', start: 8, end: 11 },
+  { name: 'Limits', start: 12, end: 12 },
+  { name: 'Outlook', start: 13, end: 14 },
 ]
 
 const currentSection = computed(() => {

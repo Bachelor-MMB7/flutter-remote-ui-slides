@@ -96,26 +96,35 @@ src: ./pages/3_research_question.md
 src: ./pages/4_approach.md
 ---
 ---
-src: ./pages/5_finding_rq1.md
+src: ./pages/5_framework_choice.md
 ---
 ---
-src: ./pages/6_finding_rq2.md
+src: ./pages/6_what_a_definition_looks_like.md
 ---
 ---
-src: ./pages/7_finding_rq3.md
+src: ./pages/7_demo.md
 ---
 ---
-src: ./pages/8_contribution.md
+src: ./pages/8_evaluation_setup.md
 ---
 ---
-src: ./pages/9_limitations.md
+src: ./pages/9_finding_rq1.md
 ---
 ---
-src: ./pages/10_future_work.md
+src: ./pages/10_finding_rq2.md
 ---
 ---
-src: ./pages/11_conclusion.md
+src: ./pages/11_finding_rq3.md
 ---
 ---
-src: ./pages/12_references.md
+src: ./pages/12_limitations.md
+---
+---
+src: ./pages/13_future_work.md
+---
+---
+src: ./pages/14_conclusion.md
+---
+---
+src: ./pages/15_references.md
 ---

@@ -1,5 +1,7 @@
 # RQ2 — 24 hours becomes half a minute
 
+<p class="criterion"><span class="so">SO2</span> Deployment time at most a tenth of the 24-hour reference value — the bar is 2.4 hours</p>
+
 **15.0 s** median server deployment
 **358.5 ms** median client delivery
 

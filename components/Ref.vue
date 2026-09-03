@@ -2,12 +2,12 @@
 defineProps({ n: { type: [String, Number], required: true } })
 </script>
 
-<template><sup class="ref">[{{ n }}]</sup></template>
+<template><span class="ref">[{{ n }}]</span></template>
 
 <style scoped>
 .ref {
-  color: rgba(242, 243, 247, 0.45);
-  font-size: 0.62em;
-  padding-left: 0.15em;
+  font-size: 0.85em;
+  color: rgba(242, 243, 247, 0.55);
+  white-space: nowrap;
 }
 </style>
