@@ -134,10 +134,82 @@
 
 /* ---- Release-Pfad auf der Problemfolie ---- */
 
+.path-stage {
+  position: relative;
+  height: 11rem;
+}
+
+.path-stage .path-panel {
+  position: absolute;
+  inset: 0;
+}
+
+.change-rail {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 4.25rem;
+}
+
+.change-rail .change-station {
+  flex: 0 0 auto;
+  width: 9rem;
+  text-align: center;
+}
+
+.change-rail .dot {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin: 0 auto;
+  border-radius: 999px;
+  background: rgba(242, 243, 247, 0.35);
+}
+
+.change-rail .change-station:first-child .dot,
+.change-rail .build-station .dot {
+  background: #bd93f9;
+}
+
+.change-rail .link {
+  flex: 1 1 auto;
+  height: 1px;
+  margin-top: 0.29rem;
+  background: rgba(242, 243, 247, 0.22);
+}
+
+.change-rail .change-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.4rem;
+  margin-top: 0.5rem;
+}
+
+.change-rail .label {
+  font-size: 0.88rem;
+  line-height: 1.35;
+  color: rgba(242, 243, 247, 0.9);
+}
+
+.change-rail .code-mark {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 1.1rem;
+  color: rgba(242, 243, 247, 0.55);
+}
+
+.change-rail .build-mark {
+  color: #bd93f9;
+}
+
+.process-icon {
+  width: 1.55rem;
+  height: 1.55rem;
+}
+
 .release-path {
   display: flex;
   align-items: flex-start;
-  margin: 2rem 0 1.6rem;
+  margin: 1.25rem 0 0;
 }
 
 .release-path .station {
@@ -152,6 +224,20 @@
   margin: 0 auto 0.6rem;
   border-radius: 999px;
   background: rgba(242, 243, 247, 0.35);
+}
+
+.release-path .process-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.25rem;
+  margin-top: 0.35rem;
+  color: rgba(242, 243, 247, 0.5);
+}
+
+.release-path .process-visual.build-mark,
+.release-path .end .process-visual {
+  color: #bd93f9;
 }
 
 .release-path .origin .dot,
@@ -219,7 +305,7 @@
 
 
 #app .slidev-layout .path-caption {
-  margin: 2.6rem 0 0;
+  margin: 1.55rem 0 0;
   font-size: 0.82rem;
   color: rgba(242, 243, 247, 0.6);
 }
@@ -227,9 +313,13 @@
 /* Taktungsvergleich auf der Problemfolie */
 
 .cadence {
+  position: absolute;
+  left: 50%;
+  bottom: 2.5rem;
+  transform: translateX(-50%);
   display: flex;
   gap: 4.5rem;
-  margin-top: 2.6rem;
+  margin: 0;
 }
 
 .cadence .value {
@@ -726,4 +816,32 @@
   line-height: 1.25;
   letter-spacing: -0.01em;
   color: #bd93f9;
+}
+
+/* Problemfolie — Aenderungspfad mit Handy-Wireframes */
+#app .slidev-layout .change-rail .phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.28rem;
+  width: 2.9rem;
+  min-height: 4.9rem;
+  padding: 0.42rem 0.34rem;
+  border: 1px solid rgba(242, 243, 247, 0.3);
+  border-radius: 0.42rem;
+  background: rgba(242, 243, 247, 0.03);
+}
+#app .slidev-layout .change-rail .ph-title {
+  width: 62%;
+  height: 0.28rem;
+  border-radius: 1px;
+  background: rgba(242, 243, 247, 0.45);
+}
+#app .slidev-layout .change-rail .ph-field {
+  height: 0.4rem;
+  border-radius: 1px;
+  background: rgba(242, 243, 247, 0.16);
+}
+#app .slidev-layout .change-rail .ph-new {
+  background: rgba(189, 147, 249, 0.8);
 }
