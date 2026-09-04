@@ -105,9 +105,6 @@ src: ./pages/6_approach.md
 src: ./pages/7_framework_choice.md
 ---
 ---
-src: ./pages/8_what_a_definition_looks_like.md
----
----
 src: ./pages/9_demo.md
 ---
 ---
