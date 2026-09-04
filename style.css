@@ -142,13 +142,32 @@
 .path-stage .path-panel {
   position: absolute;
   inset: 0;
+  opacity: 1;
+  transition: opacity 360ms ease, transform 360ms ease;
+  will-change: opacity, transform;
+}
+
+.path-stage .change-panel.slidev-vclick-hidden {
+  opacity: 0 !important;
+  transform: translateX(-0.8rem);
+}
+
+.path-stage .store-panel.slidev-vclick-hidden {
+  opacity: 0 !important;
+  transform: translateX(0.8rem);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .path-stage .path-panel {
+    transition-duration: 0ms;
+  }
 }
 
 .change-rail {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 4.25rem;
+  margin-top: 1.25rem;
 }
 
 .change-rail .change-station {

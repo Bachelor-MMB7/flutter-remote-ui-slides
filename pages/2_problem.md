@@ -8,7 +8,9 @@
 
 <div class="path-stage">
 
-<div class="path-panel" v-click-hide="1">
+<div class="path-panel change-panel" v-click-hide="1">
+  <p class="path-caption">From a workflow-screen change to a new app build</p>
+
   <div class="change-rail">
     <div class="change-station">
       <div class="dot"></div>
@@ -34,19 +36,19 @@
     <div class="link"></div>
     <div class="change-station build-station">
       <div class="dot"></div>
-      <div class="change-visual build-mark"><carbon-application-mobile class="process-icon" /></div>
+      <div class="change-visual build-mark"><carbon-cube class="process-icon" /></div>
       <div class="label">New app build</div>
     </div>
   </div>
 </div>
 
-<div class="path-panel" v-click="1">
+<div class="path-panel store-panel" v-click="1">
   <p class="path-caption">Multi-step app store release process for iOS and Android <Ref n="2" /><Ref n="3" /></p>
 
   <div class="release-path">
     <div class="station origin">
       <div class="dot"></div>
-      <div class="process-visual build-mark"><carbon-application-mobile class="process-icon" /></div>
+      <div class="process-visual build-mark"><carbon-cube class="process-icon" /></div>
       <div class="label">New app<br />build</div>
     </div>
     <div class="link"></div>
