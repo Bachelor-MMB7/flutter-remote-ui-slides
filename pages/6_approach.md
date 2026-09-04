@@ -9,10 +9,11 @@
     <div class="approach-card-head">
       <carbon-server-proxy class="approach-icon" />
       <div>
-        <div class="approach-kicker">Server</div>
-        <div class="approach-title">Definitions</div>
+        <div class="approach-kicker">Dart</div>
+        <div class="approach-title">Server</div>
       </div>
     </div>
+    <div class="app-section-label server-section-label">Definitions</div>
     <div class="tenant-definitions">
       <div class="tenant-definition tenant-a">
         <span class="tenant-label">Customer A</span>
@@ -40,8 +41,8 @@
     <div class="approach-card-head">
       <carbon-mobile class="approach-icon" />
       <div>
-        <div class="approach-kicker">On the smartphones</div>
-        <div class="approach-title">One Flutter app</div>
+        <div class="approach-kicker">Flutter</div>
+        <div class="approach-title">Mobile app</div>
       </div>
     </div>
     <div class="app-runtime-body">
@@ -80,11 +81,11 @@
 <div class="definition-dropdown" v-click="[1, 2]">
   <div class="dropdown-connector"></div>
   <div class="snippet-file"><carbon-document class="snippet-file-icon" /> goods-receipt.rfwtxt</div>
-  <pre><code>ConfirmButton(
-  text: "Continue",
-  requiredValue:
-    data.workflow.orderNumber,
-  onPressed: event "next" { },
+  <pre><code>QuantityStepper(
+  label: "Received quantity",
+  value: data.workflow.quantity,
+  onIncrement: event "incrementQuantity" { },
+  onDecrement: event "decrementQuantity" { },
 )
 <span class="snippet-more">… additional widgets</span>
 </code></pre>
@@ -98,24 +99,17 @@
 </div>
 
 <!--
-1:30 — Die Grafik von links nach rechts erklaeren:
-
-"Der Server hält fuer jeden Kunden — technisch: Tenant — eine eigene Definition. Die mobile App ist
-aber fuer alle Kunden dieselbe und bringt elf fest implementierte Warehouse-
-Widgets mit. Zur Laufzeit lädt sie die passende Definition und setzt aus diesen
-Widgets die kundenspezifische Workflowvariante zusammen. Der Server liefert
-dabei weder Dart-Code noch Workflowdaten oder Schrittlogik."
-
-Klick 1: An Customer A die gekuerzte echte Definition aufklappen. ConfirmButton
-benennen, dann auf Datenbindung und Event zeigen. Klick 2: zur Gesamtuebersicht
-zurueckkehren, bevor die Folie gewechselt wird.
-
-Methodisch folgt die Arbeit Design Science Research: Artefakt entwickeln,
-demonstrieren und anhand der drei Forschungsziele evaluieren.
-
-"Generative" wird im Sinne von Czarnecki verwendet: Definitionen werden zur
-Entwicklungszeit aus dem Widget-Katalog erstellt — manuell oder mit einem
-Sprachmodell. Zur Laufzeit findet keine Generierung statt.
-
-Vorbereitete Antwort liegt in defense/generative-ohne-generator-2026-08-05.md
+> „Das Remote-UI-System besteht aus einem Dart-Server und einer mobilen Flutter-App.
+>
+> Auf dem Server liegt für jeden Kunden eine Definition. Sie beschreibt, wie aus den vorhandenen Widgets der App ein kundenspezifischer Screen zusammengesetzt wird.
+>
+> Die App fragt abhängig vom Kunden die passende Definition an, und der Server liefert sie aus.
+>
+> Hier wird der bereits in der App vorhandene `QuantityStepper` verwendet. Die Definition legt seine Beschriftung fest, bestimmt, welchen in der App gespeicherten Wert er anzeigt, und welche Ereignisse beim Erhöhen oder Verringern ausgelöst werden.
+>
+> Die App bringt also alle Widgets bereits mit – ihr Aussehen und ihre Funktionalität sind einkompiliert. Die kundenspezifische Auswahl, Konfiguration und Anordnung kommt dagegen aus der Definition.
+>
+> So rendert dieselbe App zur Laufzeit für jeden Kunden eine eigene Screenvariante.
+>
+> Damit ist die grundsätzliche Architektur klar. Für die technische Umsetzung brauche ich nun ein Framework, das solche Definitionen interpretieren und als native Flutter-Widgets rendern kann.“
 -->

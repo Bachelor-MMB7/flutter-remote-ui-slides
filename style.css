@@ -441,6 +441,16 @@
   color: rgba(242, 243, 247, 0.42);
 }
 
+.server-section-label {
+  margin-top: 0.65rem;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.server-section-label + .tenant-definitions {
+  margin-top: 0.35rem;
+}
+
 .approach-card-head {
   display: flex;
   align-items: center;
@@ -682,7 +692,7 @@
   z-index: 3;
   top: 14.2rem;
   left: calc(50% - 21.53rem);
-  width: 16.4rem;
+  width: 20.4rem;
   overflow: visible;
   border: 1px solid rgba(189, 147, 249, 0.38);
   border-radius: 0.55rem;
