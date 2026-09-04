@@ -94,8 +94,20 @@
 </div>
 
 <div class="approach-context" v-click="2">
-  <div><span class="context-key">Method</span> Design Science Research</div>
-  <div><span class="context-key">Generative</span> Definitions authored from the widget catalog at development time — no generation at runtime</div>
+  <div class="context-block method-context">
+    <div class="context-key">Method</div>
+    <div class="context-title">Design Science Research</div>
+    <div class="context-flow">
+      <span>Build</span><carbon-arrow-right class="context-flow-arrow" />
+      <span>Demonstrate</span><carbon-arrow-right class="context-flow-arrow" />
+      <span>Evaluate</span>
+    </div>
+  </div>
+  <div class="context-block generative-context">
+    <div class="context-key">Generative</div>
+    <div class="context-title">Definitions created at development time</div>
+    <div class="context-detail">No generation at runtime</div>
+  </div>
 </div>
 
 <!--
