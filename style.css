@@ -1,7 +1,16 @@
 /* Dark Blue Background slides */
 
 .slidev-layout {
+  --slide-title-size: 1.75rem;
+  --slide-body-size: 1.05rem;
+  --slide-small-size: 0.78rem;
   background-color: #0c0f1a !important;
+}
+
+/* Gemeinsame Typografie fuer Inhaltsfolien */
+#app .slidev-layout:not(.title-slide) h1 {
+  font-size: var(--slide-title-size);
+  line-height: 1.2;
 }
 
 /* ---- Titelfolie: Logo-Lockup HdM + pyck ---- */
@@ -187,7 +196,7 @@
   position: relative;
   margin: 0 0 0.7rem;
   padding-left: 2.4rem;
-  font-size: 1.05rem;
+  font-size: var(--slide-body-size);
   line-height: 1.5;
   color: rgba(242, 243, 247, 0.72);
 }
@@ -296,34 +305,49 @@
 
 /* Fragestellung mit Erfolgskriterien */
 
-.rq-list {
-  margin-top: 1.8rem;
+#app .slidev-layout .rq-list {
+  margin-top: 2.3rem;
 }
 
-.rq-list .rq {
+#app .slidev-layout .rq-list .rq {
   display: grid;
   grid-template-columns: 3.4rem 1fr;
-  margin-bottom: 1.2rem;
+  align-items: baseline;
+  margin-bottom: 1.35rem;
+  padding-left: 0.9rem;
+  border-left: 2px solid;
 }
 
-.rq-list .rq-key {
-  grid-row: span 2;
-  font-size: 1rem;
+#app .slidev-layout .rq-list .rq-key {
+  font-size: 0.88rem;
   font-weight: 700;
-  color: #bd93f9;
+  letter-spacing: 0.05em;
 }
 
-.rq-list .rq-text {
-  font-size: 1.05rem;
-  color: rgba(242, 243, 247, 0.92);
+#app .slidev-layout .rq-list .rq-q {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: rgba(242, 243, 247, 0.95);
 }
 
-.rq-list .rq-so {
-  margin-top: 0.25rem;
-  font-size: 0.72rem;
-  line-height: 1.45;
+#app .slidev-layout .rq-list .rq-scope {
+  margin-top: 0.3rem;
+  font-size: 0.82rem;
+  line-height: 1.5;
   color: rgba(242, 243, 247, 0.5);
 }
+
+#app .slidev-layout .rq-list .rq-scope .scope-cost {
+  color: rgba(139, 233, 253, 0.85);
+}
+
+#app .slidev-layout .rq-list .rq-1 { border-color: rgba(189, 147, 249, 0.6); }
+#app .slidev-layout .rq-list .rq-2 { border-color: rgba(80, 250, 123, 0.6); }
+#app .slidev-layout .rq-list .rq-3 { border-color: rgba(139, 233, 253, 0.6); }
+#app .slidev-layout .rq-list .rq-1 .rq-key { color: #bd93f9; }
+#app .slidev-layout .rq-list .rq-2 .rq-key { color: #50fa7b; }
+#app .slidev-layout .rq-list .rq-3 .rq-key { color: #8be9fd; }
 
 /* Moeglichkeitsraum SDUI + Auswahlbegruendung */
 
@@ -602,4 +626,104 @@
   font-size: 0.85rem;
   line-height: 1.5;
   color: rgba(242, 243, 247, 0.72);
+}
+
+/* Hauptfrage — Satzbau ueber Farbe: Mittel / Gewinn / Bedingung */
+#app .slidev-layout .main-rq {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 5rem);
+  margin: 0;
+  max-width: 88%;
+  text-align: center;
+  font-size: var(--slide-body-size);
+  line-height: 1.55;
+  color: rgba(242, 243, 247, 0.82);
+}
+#app .slidev-layout .main-rq .rq-line {
+  margin-bottom: 0.3rem;
+}
+#app .slidev-layout .main-rq .rq-context {
+  margin: 0.25rem auto 0.8rem;
+  max-width: 88%;
+  font-size: inherit;
+  line-height: 1.55;
+  color: rgba(242, 243, 247, 0.62);
+}
+#app .slidev-layout .main-rq .rq-condition {
+  font-size: inherit;
+  line-height: 1.55;
+}
+#app .slidev-layout .main-rq span {
+  padding: 0.08em 0.28em;
+  border-radius: 0.22em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+#app .slidev-layout .rq-means {
+  background: rgba(189, 147, 249, 0.14);
+  color: #bd93f9;
+}
+#app .slidev-layout .rq-gain {
+  background: rgba(80, 250, 123, 0.14);
+  color: #50fa7b;
+}
+#app .slidev-layout .rq-cost {
+  background: rgba(139, 233, 253, 0.13);
+  color: #8be9fd;
+}
+
+#app .slidev-layout .rq-legend {
+  position: absolute;
+  left: 50%;
+  bottom: 2.5rem;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1.6rem;
+  margin: 0;
+  font-size: var(--slide-small-size);
+  color: rgba(242, 243, 247, 0.55);
+}
+#app .slidev-layout .rq-legend .lg {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+#app .slidev-layout .rq-legend .lg::before {
+  content: '';
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+}
+#app .slidev-layout .rq-legend .lg-means::before { background: #bd93f9; }
+#app .slidev-layout .rq-legend .lg-gain::before { background: #50fa7b; }
+#app .slidev-layout .rq-legend .lg-cost::before { background: #8be9fd; }
+
+#app .slidev-layout .rq-note {
+  position: absolute;
+  left: 50%;
+  bottom: 2.5rem;
+  transform: translateX(-50%);
+  width: calc(100% - 5rem);
+  margin: 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgba(242, 243, 247, 0.5);
+}
+
+/* Zaesur — Folie nur mit dem Namen */
+#app .slidev-layout .statement {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 5rem);
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: #bd93f9;
 }

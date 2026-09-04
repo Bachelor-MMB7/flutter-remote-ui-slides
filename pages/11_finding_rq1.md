@@ -16,6 +16,9 @@ definition per tenant — the two tenants differ only in their definitions.
 <p class="rtm-total"><strong>27 of 27 cases pass.</strong> Three are negative — a client that simply always allowed everything and always showed every widget could not pass them.</p>
 
 <!--
+MERKSATZ: Demo fuehrt vor. RQ1 zeigt, wie es gebaut ist, und belegt, dass es
+die vorher festgelegten Anforderungen erfuellt.
+
 1:30 — Das ist Peffers Aktivitaet 5, die Evaluation. Die Demonstration war die
 Folie davor. Beim Uebergang einen Satz dazu sagen, sonst verschwimmt es.
 

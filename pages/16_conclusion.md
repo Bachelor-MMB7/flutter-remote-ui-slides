@@ -29,10 +29,9 @@ Unternehmenskontext entstanden ist, reicht.
 
 Backup-Folien liegen hinter dieser Folie.
 
-TODO Repo oeffentlich schalten (steht als Schritt 6 in Kapitel 6).
-     ACHTUNG Widerspruch in der Thesis: die Fussnote in Kap. 6 verlinkt
-     github.com/Bachelor-MMB7/flutter-remote-ui, die Arbeitsnotiz darueber
-     nennt github.com/pyck-ai/flutter-remote-ui. Vor Abgabe klaeren, welches
-     Repo oeffentlich ist — sonst zeigt die Fussnote ins Leere.
+Die URL hier ist geprueft: github.com/Bachelor-MMB7/flutter-remote-ui ist
+oeffentlich erreichbar und deckt sich mit der Fussnote in Kapitel 6. Das
+Firmen-Repo unter pyck-ai wird im Vortrag bewusst nicht gezeigt.
+
 TODO QR-Code aufs Repo, falls jemand mitlesen will.
 -->

@@ -90,41 +90,47 @@ src: ./pages/1_agenda.md
 src: ./pages/2_problem.md
 ---
 ---
-src: ./pages/3_research_question.md
+src: ./pages/3_solution.md
 ---
 ---
-src: ./pages/4_approach.md
+src: ./pages/4_research_question.md
 ---
 ---
-src: ./pages/5_framework_choice.md
+src: ./pages/5_sub_questions.md
 ---
 ---
-src: ./pages/6_what_a_definition_looks_like.md
+src: ./pages/6_approach.md
 ---
 ---
-src: ./pages/7_demo.md
+src: ./pages/7_framework_choice.md
 ---
 ---
-src: ./pages/8_evaluation_setup.md
+src: ./pages/8_what_a_definition_looks_like.md
 ---
 ---
-src: ./pages/9_finding_rq1.md
+src: ./pages/9_demo.md
 ---
 ---
-src: ./pages/10_finding_rq2.md
+src: ./pages/10_evaluation_setup.md
 ---
 ---
-src: ./pages/11_finding_rq3.md
+src: ./pages/11_finding_rq1.md
 ---
 ---
-src: ./pages/12_limitations.md
+src: ./pages/12_finding_rq2.md
 ---
 ---
-src: ./pages/13_future_work.md
+src: ./pages/13_finding_rq3.md
 ---
 ---
-src: ./pages/14_conclusion.md
+src: ./pages/14_limitations.md
 ---
 ---
-src: ./pages/15_references.md
+src: ./pages/15_future_work.md
+---
+---
+src: ./pages/16_conclusion.md
+---
+---
+src: ./pages/17_references.md
 ---

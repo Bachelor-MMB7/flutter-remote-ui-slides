@@ -34,7 +34,7 @@
   <div class="station end">
     <div class="dot"></div>
     <div class="label">On the<br />warehouse floor</div>
-    <div class="note">only half of surveyed users<br />enable automatic updates <Ref n="6" /></div>
+    <div class="note">only half enabled automatic updates<br />in a 2016 user survey <Ref n="6" /></div>
   </div>
 </div>
 
@@ -45,7 +45,7 @@
   </div>
   <div class="item" v-click="2">
     <div class="value">once every two weeks</div>
-    <div class="tag">Facebook, Netflix <Ref n="6" /></div>
+    <div class="tag">Mobile apps at Facebook and Netflix <Ref n="6" /></div>
   </div>
 </div>
 
