@@ -93,7 +93,7 @@
 
 </div>
 
-<div class="approach-context">
+<div class="approach-context" v-click="2">
   <div><span class="context-key">Method</span> Design Science Research</div>
   <div><span class="context-key">Generative</span> Definitions authored from the widget catalog at development time — no generation at runtime</div>
 </div>
@@ -112,4 +112,36 @@
 > So rendert dieselbe App zur Laufzeit für jeden Kunden eine eigene Screenvariante.
 >
 > Damit ist die grundsätzliche Architektur klar. Für die technische Umsetzung brauche ich nun ein Framework, das solche Definitionen interpretieren und als native Flutter-Widgets rendern kann.“
+
+ZU METHOD:
+
+> „Methodisch folgt die Arbeit Design Science Research. Der Beitrag ist ein gebautes Artefakt und genau dafür ist dieses
+> Paradigma da.
+>
+> Dabei geht es nicht darum, ein bisher ungelöstes Problem zu lösen, sondern eine
+> bestehende Lösung effizienter zu machen. Wie bekomme ich also einen
+> geänderten Workflow-Screen zum Lagermitarbeiter und die bestehende Lösung
+> dafür ist der Release-Pfad über den App Store und genau den soll dieses System
+> effizienter machen.
+
+
+
+
+
+
+FRAGEN DEFENSE:
+
+WENN GEFRAGT WIRD "Sie wenden RFW doch nur an, was ist Ihr Beitrag?" — Hevner
+laesst ausdruecklich gelten, bestehendes Wissen auf neue Weise anzuwenden
+(Richtlinie 4, Kap. 2-2). Vier konkrete Ergaenzungen, die RFW allein nicht
+liefert:
+  1. warehouse-spezifische Komponenten statt generischer Widgets
+  2. Kompositionsregeln, die ihre Kombination einschraenken
+  3. Multi-Tenant-Auslieferung aus einem gemeinsamen Backend
+  4. geraeteseitiges Caching der Definitionen fuer unterbrochene Verbindung
+Formal ist der Beitrag eine "novel instantiation" — nicht mehr behaupten.
+
+WENN GEFRAGT WIRD "Ist das produktionsreif?" — Nein, Forschungsprototyp. Hevner
+schreibt, Artefakte seien hier typischerweise Innovationen und keine ausgereiften
+Systeme im Praxiseinsatz (Kap. 2-2, Richtlinie 1).
 -->
