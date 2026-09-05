@@ -25,7 +25,6 @@
   <div class="sb-item"><span class="sb-key">Device</span> iPhone 15 Pro, iOS 26.1, profile mode, display locked to 60 Hz</div>
   <div class="sb-item"><span class="sb-key">Network</span> device on wireless, server on fly.io in Frankfurt, over the wide area network</div>
   <div class="sb-item"><span class="sb-key">Data</span> two invented goods receipt variants, artificial data</div>
-  <div class="sb-item"><span class="sb-key">Stack</span> Flutter and Dart on both ends, RFW for rendering, Dart server compiling the definitions</div>
 </div>
 
 <!--

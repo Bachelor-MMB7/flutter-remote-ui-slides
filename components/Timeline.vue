@@ -32,9 +32,9 @@ watch(currentPage, () => {
 const sections = [
   { name: 'Problem', start: 2, end: 3 },
   { name: 'Question', start: 4, end: 5 },
-  { name: 'Approach', start: 6, end: 7 },
+  { name: 'Build', start: 6, end: 7 },
   { name: 'Demo', start: 8, end: 8 },
-  { name: 'Findings', start: 9, end: 12 },
+  { name: 'Evaluation', start: 9, end: 12 },
   { name: 'Limits', start: 13, end: 13 },
   { name: 'Outlook', start: 14, end: 15 },
 ]
