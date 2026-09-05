@@ -434,7 +434,7 @@
 
 .app-section-label {
   margin-bottom: 0.35rem;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   letter-spacing: 0.07em;
   text-align: center;
   text-transform: uppercase;
@@ -869,7 +869,7 @@
 }
 
 #app .slidev-layout .rq-list .rq-q {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.3;
   color: rgba(242, 243, 247, 0.95);
@@ -1378,20 +1378,36 @@
   color: rgba(242, 243, 247, 0.45);
 }
 #app .slidev-layout .pick-arrow {
-  margin: 0.9rem 0;
+  margin: 0.75rem 0;
   font-size: 1rem;
   color: rgba(189, 147, 249, 0.6);
 }
+#app .slidev-layout .pick-needs {
+  padding: 0.75rem 1.2rem 0.9rem;
+  border: 1px solid rgba(242, 243, 247, 0.14);
+  border-radius: 0.5rem;
+  background: rgba(242, 243, 247, 0.03);
+}
 #app .slidev-layout .reqs {
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 0.45rem 2.2rem;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem 1.8rem;
+  width: max-content;
   justify-content: center;
 }
 #app .slidev-layout .req {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 0.45rem;
   font-size: 0.85rem;
   color: rgba(242, 243, 247, 0.82);
   text-align: left;
+}
+#app .slidev-layout .req-check {
+  margin-top: 0.22rem;
+  font-size: 0.7rem;
+  color: rgba(189, 147, 249, 0.6);
 }
 #app .slidev-layout .pick-name {
   padding: 0.5rem 1.4rem;
@@ -1440,3 +1456,27 @@
   background: transparent;
   color: rgba(242, 243, 247, 0.76);
 }
+
+/* Setup — Bedingungsleiste einspaltig mit Icons */
+#app .slidev-layout .setup-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+#app .slidev-layout .setup-bar .sb-item {
+  display: grid;
+  grid-template-columns: 6.2rem 1fr;
+  align-items: baseline;
+}
+#app .slidev-layout .setup-bar .sb-key {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-width: 0;
+}
+#app .slidev-layout .sb-icon {
+  width: 0.85rem;
+  height: 0.85rem;
+  color: rgba(189, 147, 249, 0.6);
+}
+

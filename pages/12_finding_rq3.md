@@ -17,6 +17,12 @@ Finger zum Glas ist laenger und wurde nicht gemessen.
 Die 100-ms-Schwelle nach Nielsen ist deshalb nur Referenz, kein Nachweis.
 Vorbereitete Antwort: defense/100ms-schwelle-messspanne.md
 
+TODO Visual A-B-B-A, falls nach dem Verteilungsdiagramm noch Zeit ist:
+     Block 1 RFW 9,8 ms | Block 2 Baseline | Block 3 Baseline | Block 4 RFW 9,8 ms
+     Zeigt Kontrolle UND Nachweis in einem Bild: erster und letzter Block sind
+     beide RFW und haben denselben Median, also keine thermische Drift.
+     Gehoert hierher und nicht ins Setup — die 9,8 gegen 9,8 sind ein Befund.
+
 TODO Visual: Verteilung tap-to-frame beider Implementierungen, mit
 Frame-Perioden-Linie bei 16,7 ms.
 -->

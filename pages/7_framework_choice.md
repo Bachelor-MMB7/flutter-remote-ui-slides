@@ -29,13 +29,13 @@
     </div>
   </div>
   <div class="pick-arrow" v-click="1">↓</div>
-  <div class="pick-step" v-click="1">
+  <div class="pick-step pick-needs" v-click="1">
     <div class="pick-label">What pyck needs</div>
     <div class="reqs">
-      <div class="req">Definitions instead of downloaded code <Ref n="5" /></div>
-      <div class="req">Uses the same rendering pipeline as compiled Flutter code</div>
-      <div class="req">No required third-party platform</div>
-      <div class="req">Dependable, Flutter-maintained foundation</div>
+      <div class="req"><carbon-checkmark class="req-check" /><span>Definitions instead of downloaded code <Ref n="5" /></span></div>
+      <div class="req"><carbon-checkmark class="req-check" /><span>Uses the same rendering pipeline as compiled Flutter code</span></div>
+      <div class="req"><carbon-checkmark class="req-check" /><span>No required third-party platform</span></div>
+      <div class="req"><carbon-checkmark class="req-check" /><span>Dependable, Flutter-maintained foundation</span></div>
     </div>
   </div>
   <div class="pick-arrow" v-click="2">↓</div>
