@@ -1388,3 +1388,41 @@
   font-weight: 700;
   color: #bd93f9;
 }
+
+/* Zweiter Kasten: Zustand in der App, rechts unter der App-Karte */
+#app .slidev-layout .data-dropdown {
+  position: absolute;
+  z-index: 3;
+  top: 14.2rem;
+  right: calc(50% - 21.48rem);
+  width: 11rem;
+  overflow: visible;
+  border: 1px solid rgba(139, 233, 253, 0.38);
+  border-radius: 0.55rem;
+  background: #12141f;
+  box-shadow: 0 0.8rem 2rem rgba(0, 0, 0, 0.32);
+  opacity: 1;
+  transition: opacity 260ms ease;
+}
+#app .slidev-layout .data-dropdown.slidev-vclick-hidden {
+  opacity: 0 !important;
+}
+#app .slidev-layout .data-dropdown .dropdown-connector {
+  top: -1.77rem;
+  left: 5.74rem;
+  height: 1.77rem;
+  background: rgba(139, 233, 253, 0.55);
+}
+#app .slidev-layout .data-dropdown pre {
+  margin: 0;
+  padding: 0.55rem 1rem 0.45rem;
+  border: 0;
+  background: transparent;
+  font-size: 0.66rem;
+  line-height: 1.35;
+}
+#app .slidev-layout .data-dropdown code {
+  padding: 0;
+  background: transparent;
+  color: rgba(242, 243, 247, 0.76);
+}

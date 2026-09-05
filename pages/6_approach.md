@@ -91,6 +91,14 @@
 </code></pre>
 </div>
 
+<div class="data-dropdown" v-click="[1, 2]">
+  <div class="dropdown-connector"></div>
+  <div class="snippet-file"><carbon-mobile class="snippet-file-icon" /> in the app</div>
+  <pre><code>data.workflow
+  quantity: "3"
+  orderNumber: "A11643"
+</code></pre>
+</div>
 </div>
 
 <div class="approach-context" v-click="2">
