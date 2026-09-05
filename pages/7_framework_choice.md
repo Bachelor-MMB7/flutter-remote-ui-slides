@@ -2,7 +2,6 @@
 
 <div class="pick">
   <div class="pick-step">
-    <div class="pick-label">Options considered</div>
     <div class="chips" :class="{ picked: $clicks >= 2 }">
       <div class="chip-group">
         <div class="chip-group-label">Package, own server</div>
@@ -24,14 +23,17 @@
         <div class="chip-row"><span class="chip">FreeFlow</span></div>
       </div>
     </div>
-    <div class="pick-aside">Code push (Shorebird) — every customer gets the same code, so no per-customer variants <Ref n="12" /></div>
+    <div class="pick-aside">
+      <span class="chip chip-aside">Shorebird</span>
+      <span class="aside-text">Code push — every customer gets the same code, so no per-customer variants <Ref n="12" /></span>
+    </div>
   </div>
   <div class="pick-arrow" v-click="1">↓</div>
   <div class="pick-step" v-click="1">
     <div class="pick-label">What pyck needs</div>
     <div class="reqs">
       <div class="req">Definitions instead of downloaded code <Ref n="5" /></div>
-      <div class="req">Renders into the same Flutter pipeline as compiled code</div>
+      <div class="req">Uses the same rendering pipeline as compiled Flutter code</div>
       <div class="req">No required third-party platform</div>
       <div class="req">Dependable, Flutter-maintained foundation</div>
     </div>
