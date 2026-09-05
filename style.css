@@ -1299,3 +1299,92 @@
 #app .slidev-layout .change-rail .ph-new {
   background: rgba(189, 147, 249, 0.8);
 }
+
+
+/* Framework-Wahl — Auswahlpfad */
+#app .slidev-layout .pick {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.6rem;
+  text-align: center;
+}
+#app .slidev-layout .pick-label {
+  margin-bottom: 0.6rem;
+  font-size: 0.6rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: rgba(242, 243, 247, 0.4);
+}
+#app .slidev-layout .chips {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2.6rem;
+}
+#app .slidev-layout .chip-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+}
+#app .slidev-layout .chip-group-label {
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(242, 243, 247, 0.34);
+}
+#app .slidev-layout .chip-row {
+  display: flex;
+  gap: 0.5rem;
+}
+#app .slidev-layout .chip {
+  padding: 0.35rem 0.8rem;
+  border: 1px solid rgba(242, 243, 247, 0.2);
+  border-radius: 1rem;
+  background: rgba(242, 243, 247, 0.04);
+  font-size: 0.85rem;
+  color: rgba(242, 243, 247, 0.82);
+  transition: opacity 300ms ease, border-color 300ms ease, color 300ms ease;
+}
+#app .slidev-layout .chips.picked .chip {
+  opacity: 0.3;
+}
+#app .slidev-layout .chips.picked .chip-rfw {
+  opacity: 1;
+  border-color: rgba(189, 147, 249, 0.7);
+  background: rgba(189, 147, 249, 0.12);
+  color: #bd93f9;
+}
+#app .slidev-layout .pick-aside {
+  max-width: 34rem;
+  margin-top: 0.85rem;
+  font-size: 0.72rem;
+  line-height: 1.5;
+  color: rgba(242, 243, 247, 0.45);
+}
+#app .slidev-layout .pick-arrow {
+  margin: 0.9rem 0;
+  font-size: 1rem;
+  color: rgba(189, 147, 249, 0.6);
+}
+#app .slidev-layout .reqs {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 0.45rem 2.2rem;
+  justify-content: center;
+}
+#app .slidev-layout .req {
+  font-size: 0.85rem;
+  color: rgba(242, 243, 247, 0.82);
+  text-align: left;
+}
+#app .slidev-layout .pick-name {
+  padding: 0.5rem 1.4rem;
+  border: 1px solid rgba(189, 147, 249, 0.7);
+  border-radius: 0.5rem;
+  background: rgba(189, 147, 249, 0.12);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #bd93f9;
+}

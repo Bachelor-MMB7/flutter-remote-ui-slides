@@ -119,7 +119,7 @@
 >
 > Hier wird der bereits in der App vorhandene `QuantityStepper` verwendet. Die Definition legt seine Beschriftung fest, bestimmt, welchen in der App gespeicherten Wert er anzeigt, und welche Ereignisse beim Erhöhen oder Verringern ausgelöst werden.
 >
-> Die App bringt also alle Widgets bereits mit – ihr Aussehen und ihre Funktionalität sind einkompiliert. Die kundenspezifische Auswahl, Konfiguration und Anordnung kommt dagegen aus der Definition.
+> Die Definition bestimmt also die kundenspezifische Auswahl, Konfiguration und Anordnung. Die Widgets selbst bringt die App mit – ihr Aussehen und ihre Funktionalität sind einkompiliert. Definition und Daten kommen erst zur Laufzeit auf dem Gerät zusammen.
 >
 > So rendert dieselbe App zur Laufzeit für jeden Kunden eine eigene Screenvariante.
 >
