@@ -824,7 +824,9 @@
 }
 
 .demo-video {
-  object-fit: cover;
+  aspect-ratio: 3024 / 1750;
+  object-fit: contain;
+  background: #000;
   border: 1px solid rgba(242, 243, 247, 0.14);
 }
 
@@ -1103,15 +1105,15 @@
 
 /* Demonstration — Video links, Sprechanker rechts */
 #app .slidev-layout .demo-stage {
-  display: grid;
-  grid-template-columns: 1.55fr 1fr;
-  gap: 1.6rem;
-  align-items: center;
-  margin-top: 1.4rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.6rem;
 }
 #app .slidev-layout .video-placeholder.demo-wide,
 #app .slidev-layout .demo-video.demo-wide {
-  width: 100%;
+  width: auto;
+  height: 27rem;
+  max-width: 100%;
   margin: 0;
 }
 #app .slidev-layout .demo-beats {

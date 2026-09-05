@@ -1,15 +1,7 @@
 # Demonstration
 
 <div class="demo-stage">
-  <div class="video-placeholder demo-wide">
-    <div class="vp-label">Demo clip</div>
-    <div class="vp-meta">40–50 s · iPhone 15 Pro · server on fly.io</div>
-  </div>
-  <div class="demo-beats">
-    <div class="beat"><span class="beat-n">1</span><span class="beat-t">Two tenants, one build</span></div>
-    <div class="beat"><span class="beat-n">2</span><span class="beat-t">Edit a definition, publish, reload</span></div>
-    <div class="beat"><span class="beat-n">3</span><span class="beat-t">Airplane mode, screens still render</span></div>
-  </div>
+  <video class="demo-video demo-wide" src="/demo.mp4" controls muted playsinline preload="metadata"></video>
 </div>
 
 <!--
