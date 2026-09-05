@@ -5,7 +5,7 @@
     <div class="rq-key">RQ1</div>
     <div class="rq-body">
       <div class="rq-q">How can it be built?</div>
-      <div class="rq-scope">Render definitions, compose customer-specific variants and <span class="scope-cost">stay available when the server is unreachable</span></div>
+      <div class="rq-scope">Rendering, composition, <span class="scope-cost">availability without a server</span></div>
     </div>
   </div>
   <div class="rq rq-2" v-click="1">
