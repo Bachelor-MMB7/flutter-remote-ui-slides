@@ -8,7 +8,7 @@ const shown = ref(false)
 </script>
 
 <template>
-  <button class="ai-open" @click="shown = true">AI tools usage</button>
+  <button class="ai-open" @click="shown = true" aria-label="AI tools usage"><carbon-information /></button>
 
   <div v-if="shown" class="ai-overlay">
     <div class="ai-head-row">
@@ -27,13 +27,13 @@ const shown = ref(false)
       </div>
       <div class="ai-row">
         <div>Slides</div>
-        <div>Claude Code (Anthropic, Opus 5), Codex (OpenAI, GPT-5.6-sol)</div>
+        <div><span class="ai-tool">Claude Code (Anthropic, Opus 5),</span> <span class="ai-tool">Codex (OpenAI, GPT-5.6-sol)</span></div>
         <div>Layout support</div>
         <div>Support with Slidev and CSS syntax for slide structure, diagrams and click animations.</div>
       </div>
       <div class="ai-row">
         <div>Slides</div>
-        <div>Claude Code (Anthropic, Opus 5)</div>
+        <div><span class="ai-tool">Claude Code (Anthropic, Opus 5)</span></div>
         <div>Formulation support</div>
         <div>Support with revising the slide wording, checked by the author against the thesis.</div>
       </div>

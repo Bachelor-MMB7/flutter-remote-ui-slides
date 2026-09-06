@@ -24,10 +24,27 @@ hideInToc: true
 
 </div>
 
+<AiTools />
+
 <!--
 Referenzfolie, im Vortrag nicht ansprechen. Liegt hinter dem Fazit, damit sie
-in der Diskussion aufrufbar ist.
+in der Diskussion aufrufbar ist. Letzte Folie, weiter geht es nicht.
 
 Nummern in Reihenfolge des ersten Auftretens. Nur zitierte Quellen, geprueft
 gegen die Marker auf den Folien. Kommt eine Quelle dazu, neu durchnummerieren.
+
+DIE KI-TABELLE liegt als Einblendung auf dieser Folie, nicht als eigene Folie.
+Nur der Knopf unten rechts oeffnet sie, mit den Pfeiltasten kommt man nicht
+versehentlich hin. Sie setzt die Deklaration aus Anhang E der Thesis fort,
+dort steht unter anderem "Typesetting support, Typst syntax", die Slidev-Zeile
+ist der gleiche Fall.
+
+Modellname belegt: die Codex-Sitzungsmitschrift unter ~/.codex/sessions fuehrt
+vom 04.09. bis 05.09. genau ein Modell, gpt-5.6-sol, mit 250 Antworten im
+Arbeitsverzeichnis dieses Repos. Seit dem 06.09. wird es von OpenAI fuer
+ChatGPT-Konten abgelehnt, das aendert aber nichts daran, womit gearbeitet wurde.
+
+OFFEN: Mit Gerlicher klaeren, ob das Kolloquium eine eigene Angabe braucht
+oder ob es von der Erklaerung zur Arbeit bzw. der Whitelist abgedeckt ist.
+Kanal dafuer besteht, siehe Meetings/2026-05-30.
 -->

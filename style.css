@@ -1284,7 +1284,61 @@
   color: rgba(242, 243, 247, 0.88);
 }
 
-/* AI Tools Usage, Backup-Folie im Aufbau von Anhang E */
+/* AI Tools Usage, Einblendung auf der Quellenfolie im Aufbau von Anhang E */
+#app .slidev-layout .ai-open {
+  position: absolute;
+  right: 3.5rem;
+  bottom: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  color: rgba(242, 243, 247, 0.22);
+  cursor: pointer;
+  transition: color 0.2s;
+}
+#app .slidev-layout .ai-open:hover {
+  color: rgba(242, 243, 247, 0.6);
+}
+#app .slidev-layout .ai-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  padding: 2.5rem 3.5rem 3rem;
+  background: #0c0f1a;
+}
+#app .slidev-layout .ai-head-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+#app .slidev-layout .ai-title {
+  font-size: var(--slide-title-size);
+  font-weight: 700;
+  line-height: 1.2;
+  color: #f2f3f7;
+}
+#app .slidev-layout .ai-close {
+  padding: 0.42rem 0.85rem;
+  border: 1px solid rgba(242, 243, 247, 0.16);
+  border-radius: 0.3rem;
+  background: rgba(242, 243, 247, 0.03);
+  font-size: 0.62rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: rgba(242, 243, 247, 0.4);
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s;
+}
+#app .slidev-layout .ai-close:hover {
+  border-color: rgba(242, 243, 247, 0.3);
+  color: rgba(242, 243, 247, 0.72);
+}
 #app .slidev-layout .ai-intro {
   margin: 1.4rem 0 0;
   max-width: 52rem;
@@ -1297,13 +1351,17 @@
 }
 #app .slidev-layout .ai-row {
   display: grid;
-  grid-template-columns: 7rem 12rem 10rem 1fr;
+  grid-template-columns: 5rem 14rem 9rem 1fr;
   gap: 1rem;
   padding: 0.7rem 0;
   border-bottom: 1px solid rgba(242, 243, 247, 0.1);
   font-size: 0.8rem;
   line-height: 1.5;
   color: rgba(242, 243, 247, 0.78);
+}
+#app .slidev-layout .ai-tool {
+  display: inline-block;
+  white-space: nowrap;
 }
 #app .slidev-layout .ai-head {
   padding-bottom: 0.5rem;
