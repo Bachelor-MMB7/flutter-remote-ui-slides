@@ -31,19 +31,9 @@
 </div>
 
 <!--
-1:00 — Nicht vorlesen. Die drei Methoden benennen, dann auf die Leiste unten
-zeigen: alles lief auf einem Aufbau.
+RQ1 wurde funktional geprüft, mit einer Matrix aus 27 Testfällen am laufenden Client auf dem Gerät
 
-Alle drei Methoden stammen aus Hevners Katalog (Kap. 2-2 und 2-4). Das ist der
-Punkt fuer Gerlicher: die Methodenwahl ist begruendet, nicht beliebig.
+RQ2 hat zwei Teile. Die 24 Stunden für den Store-Weg kommen aus einem informed argument. Mein eigener Deployment Weg ist gemessen, 30 Deploys auf den Server und 30 Auslieferungen aufs Gerät.
 
-Profile mode betonen, falls gefragt: im Debug-Modus kompiliert die App waehrend
-sie laeuft und waere langsamer — das haette die Messung verzerrt (Kap. 7-3).
-
-A-B-B-A erklaeren, falls gefragt: beide Apps laufen auf demselben Geraet, also
-nacheinander. Ein Geraet lernt nicht, kann aber waermer werden. Die Reihenfolge
-verteilt so eine Drift auf beide. Erster und letzter Block, beide RFW, haben
-denselben Median von 9,8 ms — also keine Drift aufgetreten.
-
-TODO Pruefen ob die Folie im Zeitbudget bleibt oder in die Backup-Sektion muss.
+Bei RQ3 ist es ein controlled experiment wo ich pro app 1002 taps mit einem test script hab durchlaufen lassen gegen eine baseline app und dabei counterbalancing angewendet weil das Gerät dabei wärmer werden kann, deshalb A-B-B-A, damit das nicht auf eine der beiden fällt.
 -->

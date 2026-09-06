@@ -29,11 +29,17 @@
 
 <p class="perf-span">Median render time, measured from the tap arriving in the app to the flushed frame</p>
 
-<p class="perf-out" v-click="1">Median and 95th percentile stay far below 100 ms in both implementations. The slowest single tap was 20.4 ms.</p>
+<p class="perf-out" v-click="1">All 2004 taps stayed below 100 ms. 95 percent finished within 17.9 ms, and the slowest single tap was 20.4 ms.</p>
 
 <p class="perf-src" v-click="1">100 ms is Nielsen's limit for a system that feels instantaneous, used here as a reference <Ref n="8" /></p>
 
 <!--
+
+Der Unterschied beträgt 0,3 Millisekunden. Erlaubt wäre eine ganze Bildperiode, 16,7. Wir bleiben also weit innerhalb. Von der Performance her sind die beiden damit vergleichbar.
+
+95 von 100 taps waren höchstens 17.9 ms schnell.
+
+
 Geflusht heißt: aus Sicht der App ist das Rendern fertig und die Szene ist an die Flutter Engine übergeben. Die rastert sie danach und macht sie für den Bildschirm bereit.
 
 
