@@ -1187,6 +1187,64 @@
   color: rgba(242, 243, 247, 0.88);
 }
 
+/* RQ2 — Auslieferungsweg als zwei Stationen, in der Bildsprache von Folie 2 */
+#app .slidev-layout .deploy-path {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 3.2rem auto 0;
+  max-width: 38rem;
+}
+#app .slidev-layout .dstation {
+  flex: 0 0 auto;
+  width: 15rem;
+  text-align: center;
+}
+#app .slidev-layout .dstation .dot {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin: 0 auto;
+  border-radius: 999px;
+  background: #50fa7b;
+}
+#app .slidev-layout .dvisual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.25rem;
+  margin-top: 0.7rem;
+  color: rgba(80, 250, 123, 0.75);
+}
+#app .slidev-layout .dlabel {
+  font-size: 0.88rem;
+  color: rgba(242, 243, 247, 0.9);
+}
+#app .slidev-layout .dvalue {
+  margin-top: 0.25rem;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #50fa7b;
+}
+#app .slidev-layout .dnote {
+  margin-top: 0.4rem;
+  font-size: 0.68rem;
+  line-height: 1.4;
+  color: rgba(242, 243, 247, 0.5);
+}
+#app .slidev-layout .dlink {
+  flex: 1 1 auto;
+  height: 1px;
+  margin: 0.29rem -7.5rem 0;
+  background: rgba(80, 250, 123, 0.32);
+}
+#app .slidev-layout .deploy-out {
+  margin: 3.6rem 0 0;
+  text-align: center;
+  font-size: 1.05rem;
+  color: rgba(242, 243, 247, 0.88);
+}
+
 /* RQ1 — Requirement Traceability Matrix als Raster */
 #app .slidev-layout .rtm {
   display: grid;
