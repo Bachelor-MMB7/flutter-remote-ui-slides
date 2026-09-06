@@ -1105,9 +1105,36 @@
 
 /* Demonstration — Video links, Sprechanker rechts */
 #app .slidev-layout .demo-stage {
+  position: relative;
   display: flex;
   justify-content: center;
   margin-top: 0.6rem;
+}
+#app .slidev-layout .demo-poster {
+  cursor: pointer;
+}
+#app .slidev-layout .demo-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  padding-left: 0.2rem;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(242, 243, 247, 0.32);
+  border-radius: 50%;
+  background: rgba(15, 17, 26, 0.55);
+  color: rgba(242, 243, 247, 0.92);
+  cursor: pointer;
+  transition: background 200ms ease, border-color 200ms ease, transform 200ms ease;
+}
+#app .slidev-layout .demo-play:hover {
+  border-color: rgba(189, 147, 249, 0.7);
+  background: rgba(189, 147, 249, 0.28);
+  transform: translate(-50%, -50%) scale(1.06);
 }
 #app .slidev-layout .video-placeholder.demo-wide,
 #app .slidev-layout .demo-video.demo-wide {

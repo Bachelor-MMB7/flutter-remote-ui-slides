@@ -1,7 +1,7 @@
 # Demonstration
 
 <div class="demo-stage">
-  <video class="demo-video demo-wide" src="/demo.mp4" poster="/demo-poster.jpg" controls muted playsinline preload="none"></video>
+  <DemoVideo />
 </div>
 
 <!--
