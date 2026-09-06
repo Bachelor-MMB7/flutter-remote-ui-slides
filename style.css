@@ -1685,6 +1685,9 @@
   height: 1.77rem;
   background: rgba(139, 233, 253, 0.55);
 }
+#app .slidev-layout .data-dropdown .data-val {
+  color: rgba(139, 233, 253, 0.9);
+}
 #app .slidev-layout .data-dropdown pre {
   margin: 0;
   padding: 0.55rem 1rem 0.45rem;

@@ -95,9 +95,9 @@
   <div class="dropdown-connector"></div>
   <div class="snippet-file"><carbon-mobile class="snippet-file-icon" /> in the app</div>
   <pre><code>data.workflow
-  quantity: "3"
-  orderNumber: "A11643"
-</code></pre>
+  quantity: <span class="data-val">"3"</span>
+  orderNumber: <span class="data-val">"A11643"</span>
+  <span class="snippet-more">… more keys</span></code></pre>
 </div>
 </div>
 
