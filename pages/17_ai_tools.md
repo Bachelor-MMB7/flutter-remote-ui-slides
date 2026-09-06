@@ -15,15 +15,15 @@ hideInToc: true
   </div>
   <div class="ai-row">
     <div>Slides</div>
-    <div>Claude Code (Anthropic, Opus 5), Codex (OpenAI)</div>
+    <div>Claude Code (Anthropic, Opus 5), Codex (OpenAI, GPT-5.6-sol)</div>
     <div>Layout support</div>
-    <div>Slidev and CSS syntax for slide structure, diagrams and click animations.</div>
+    <div>Support with Slidev and CSS syntax for slide structure, diagrams and click animations.</div>
   </div>
   <div class="ai-row">
     <div>Slides</div>
     <div>Claude Code (Anthropic, Opus 5)</div>
     <div>Formulation support</div>
-    <div>Revision of slide wording, checked by the author against the thesis.</div>
+    <div>Support with revising the slide wording, checked by the author against the thesis.</div>
   </div>
 </div>
 
@@ -34,10 +34,10 @@ Setzt die Deklaration aus Anhang E der Thesis fort. Dort ist unter anderem
 "Typesetting support, Typst syntax" angegeben, die Slidev-Zeile hier ist der
 gleiche Fall.
 
-OFFEN: Modellname fuer Codex ergaenzen. Die Fehlermeldung nennt nur, welches
-Modell mit einem ChatGPT-Konto NICHT geht (gpt-5.6-sol), nicht welches benutzt
-wurde. In der Thesis-Tabelle stehen die Modelle namentlich, hier sollte es
-genauso sein.
+Modellname belegt: die Codex-Sitzungsmitschrift unter ~/.codex/sessions fuehrt
+vom 04.09. bis 05.09. genau ein Modell, gpt-5.6-sol, mit 250 Antworten im
+Arbeitsverzeichnis dieses Repos. Seit dem 06.09. wird es von OpenAI fuer
+ChatGPT-Konten abgelehnt, das aendert aber nichts daran, womit gearbeitet wurde.
 
 OFFEN: Mit Gerlicher klaeren, ob das Kolloquium eine eigene Angabe braucht
 oder ob es von der Erklaerung zur Arbeit bzw. der Whitelist abgedeckt ist.

@@ -12,7 +12,7 @@
         </div>
       </div>
       <div class="chip-group">
-        <div class="chip-group-label">External platform</div>
+        <div class="chip-group-label">Screens from a content system</div>
         <div class="chip-row">
           <span class="chip">Digia</span>
           <span class="chip">Vyuh</span>
@@ -34,7 +34,7 @@
     <div class="reqs">
       <div class="req"><carbon-checkmark class="req-check" /><span>Definitions instead of downloaded code <Ref n="5" /></span></div>
       <div class="req"><carbon-checkmark class="req-check" /><span>Uses the same rendering pipeline as compiled Flutter code</span></div>
-      <div class="req"><carbon-checkmark class="req-check" /><span>No required third-party platform</span></div>
+      <div class="req"><carbon-checkmark class="req-check" /><span>No required third-party platform (Digia)</span></div>
       <div class="req"><carbon-checkmark class="req-check" /><span>Dependable, Flutter-maintained foundation</span></div>
     </div>
   </div>
@@ -45,10 +45,22 @@
 </div>
 
 <!--
-Zu "External platform": Screens werden dort in einem fremden System
-zusammengestellt. Der Unterschied zwischen den beiden, falls gefragt: Digia ist
-deren eigene Cloud im Abo, ohne Self-Hosting. Vyuh nutzt ein CMS deiner Wahl,
-und die Anbindung ist optional.
+Zu "Screens from a content system": bei beiden haelt ein Studio oder ein CMS
+die Screens. Wer sie betreibt, ist der Unterschied, und den nur auf Nachfrage:
+
+  Digia   liefert aus der eigenen Cloud, Kap. 4-1-4: "A self-hosting option is
+          not listed". In der Vergleichstabelle steht dort "Digia Cloud".
+  Vyuh    holt aus einem headless CMS, Kap. 4-1-5: "such as Sanity.io", und
+          "The CMS integration is optional". In der Tabelle steht nur
+          "fetched from the CMS", kein Anbieter.
+
+DESHALB NICHT "External platform" sagen. Das trifft Digia, nicht Vyuh, und die
+Folie wuerde eine Ungenauigkeit behaupten, die die Thesis nicht deckt.
+
+WELCHES FRAMEWORK SCHLIESST "No required third-party platform" AUS?
+Digia. Vyuh nicht, weil dort keine bestimmte Plattform verlangt wird. Gegen
+Vyuh und Stac gab die Pflege durch das Flutter-Team den Ausschlag, siehe
+docs/frage-warum-rfw.md.
 
 Zu "Composed on the server": "FreeFlow ist das einzige, das Beschreibung und
 Daten auf dem Server zusammenfuehrt — bei allen anderen passiert das auf dem

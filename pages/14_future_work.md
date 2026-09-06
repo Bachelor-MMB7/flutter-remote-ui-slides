@@ -20,7 +20,7 @@
     <div class="limit-head">What to build next</div>
     <div class="limit">
       <div class="limit-key"><strong>Data, not just screens.</strong></div>
-      <div class="limit-say">How entries made offline reconcile once they travel to a backend.</div>
+      <div class="limit-say">What happens to entries made offline once the connection returns.</div>
     </div>
     <div class="limit">
       <div class="limit-key"><strong>Behavior from the definition.</strong></div>

@@ -46,4 +46,9 @@ Die 100 Millisekunden sind für uns ein Richtwert, unter dem wir bleiben wollen.
 Frage Flushed und bei Schwelle wegen rastern: 
 Bei der Schwelle („warum nicht für die 100 ms?"): weil du bei einem Fünftel liegst und die fehlenden Teile das Vierfache deiner Spanne beitragen müssten.
 
+Warum eine Bildperiode die Grenze ist: docs/frage-bildperiode-als-grenze.md
+Kurz: darunter ist der Unterschied feiner, als das Display auflöst, er landet
+auf derselben Bildwiederholung. Die Schwelle sagt NICHT "darüber merkt es der
+Mitarbeiter".
+
 -->
