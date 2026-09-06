@@ -8,6 +8,7 @@ info: |
 class: text-left title-slide
 drawings:
   persist: false
+presenter: dev
 transition: slide-left
 mdc: true
 duration: 15min
