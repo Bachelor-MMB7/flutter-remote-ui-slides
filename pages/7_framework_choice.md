@@ -45,24 +45,9 @@
 </div>
 
 <!--
-Zu "Screens from a content system": bei beiden haelt ein Studio oder ein CMS
-die Screens. Wer sie betreibt, ist der Unterschied, und den nur auf Nachfrage:
+FreeFlow: definitionen und daten kommen hier und nicht so wie bei meinem system auf dem server zusammen.
 
-  Digia   liefert aus der eigenen Cloud, Kap. 4-1-4: "A self-hosting option is
-          not listed". In der Vergleichstabelle steht dort "Digia Cloud".
-  Vyuh    holt aus einem headless CMS, Kap. 4-1-5: "such as Sanity.io", und
-          "The CMS integration is optional". In der Tabelle steht nur
-          "fetched from the CMS", kein Anbieter.
+bei shorebid können wir im nachhinein nach dem app store path code pushen in die mobile app um diesen deployment prozess zu reduzieren.
 
-DESHALB NICHT "External platform" sagen. Das trifft Digia, nicht Vyuh, und die
-Folie wuerde eine Ungenauigkeit behaupten, die die Thesis nicht deckt.
-
-WELCHES FRAMEWORK SCHLIESST "No required third-party platform" AUS?
-Digia. Vyuh nicht, weil dort keine bestimmte Plattform verlangt wird. Gegen
-Vyuh und Stac gab die Pflege durch das Flutter-Team den Ausschlag, siehe
-docs/frage-warum-rfw.md.
-
-Zu "Composed on the server": "FreeFlow ist das einzige, das Beschreibung und
-Daten auf dem Server zusammenfuehrt — bei allen anderen passiert das auf dem
-Geraet."
+Die Apple zieht bei nachgeladenem Code eine Grenze. Ich suche deshalb einen Weg, bei dem gar kein Code aufs Gerät geht, sondern nur eine Beschreibung.
 -->
