@@ -1281,6 +1281,12 @@
 #app .slidev-layout .limit:last-child {
   margin-bottom: 0;
 }
+/* Future work: gleiche Form wie die Limitationen, gedaempfte Farbe.
+   Cyan steht fuer Bedingung, ein Ausblick ist keine. */
+#app .slidev-layout .future .limit {
+  border-left-color: rgba(242, 243, 247, 0.32);
+  background: rgba(242, 243, 247, 0.04);
+}
 
 /* RQ3 — Renderzeit als Anteil einer Bildperiode, massstaeblich */
 #app .slidev-layout .perf {
