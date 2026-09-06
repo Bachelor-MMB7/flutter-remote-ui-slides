@@ -1087,16 +1087,34 @@
 }
 
 /* Conclusion */
+#app .slidev-layout .headline-result {
+  margin-top: 1.8rem;
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 1.15;
+  color: #50fa7b;
+}
 #app .slidev-layout .outcomes {
-  margin-top: 1.6rem;
+  margin-top: 1.5rem;
 }
 #app .slidev-layout .outcomes p {
   margin: 0 0 0.55rem;
   font-size: 1.02rem;
   line-height: 1.5;
 }
-#app .slidev-layout .repo {
+#app .slidev-layout .repo-row {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
   margin-top: 1.5rem;
+}
+#app .slidev-layout .repo-qr {
+  width: 4.6rem;
+  height: 4.6rem;
+  border-radius: 0.3rem;
+  background: #fff;
+}
+#app .slidev-layout .repo {
   font-size: 0.85rem;
   color: rgba(242, 243, 247, 0.55);
 }

@@ -1,9 +1,10 @@
 # Conclusion
 
+<div class="headline-result">24 hours becomes half a minute</div>
+
 <div class="outcomes">
-  <p>Definitions on a server carry the screens.</p>
-  <p>Deployment completes in under half a minute instead of a release cycle.</p>
-  <p>Taps stay as fast as in a compiled app.</p>
+  <p>One build, one definition per customer.</p>
+  <p>Taps stay comparable to a compiled app, 0.3 ms more render time.</p>
   <p>A cached definition keeps a workflow running when the connection drops.</p>
 </div>
 
@@ -13,25 +14,34 @@
   <p>A workflow variant no longer waits for an app store release.</p>
 </div>
 
-<div class="repo">github.com/Bachelor-MMB7/flutter-remote-ui</div>
+<div class="repo-row">
+  <img class="repo-qr" src="/repo-qr.png" alt="" />
+  <div class="repo">github.com/Bachelor-MMB7/flutter-remote-ui</div>
+</div>
 
 <!--
 1:00 — Traegt jetzt auch die Contribution, die vorher eine eigene Folie war.
-Erst die vier Ergebnisse, dann der Kasten: das ist die "na und"-Antwort,
-warum das ueber den Prototyp hinaus zaehlt. Danach in die Diskussion uebergeben.
 
-Die vier Zeilen sind bewusst je eine Aussage pro Forschungsfrage plus Offline.
-Nicht vorlesen, nur die Reihenfolge nachfahren.
+Der Aufbau folgt Kapitel 9-1: erst die Antwort auf die Hauptfrage gross, dann
+die drei stuetzenden Befunde, dann der Kasten mit der Bedeutung fuer die
+Praxis. Nicht vorlesen, nur die Reihenfolge nachfahren.
+
+Zu den 24 Stunden: definiertes Referenzszenario aus Abschnitt 2-4, keine
+Messung. Falls jemand darauf zeigt, offen sagen.
+
+Zu den 0,3 ms: das ist die Renderzeit, nicht die Gesamtspanne. Wer Tabelle 7-4
+aufschlaegt, sieht 9,8 gegen 12,1 ms. Antwort in docs/rq3-wait-und-render.md.
 
 Der Kasten ist die einzige Stelle im Vortrag, an der pyck als Anwendungsfall
-vorkommt. Nicht ueberziehen — ein Satz dazu, dass die Arbeit im
+vorkommt. Nicht ueberziehen, ein Satz dazu, dass die Arbeit im
 Unternehmenskontext entstanden ist, reicht.
 
 Backup-Folien liegen hinter dieser Folie.
 
-Die URL hier ist geprueft: github.com/Bachelor-MMB7/flutter-remote-ui ist
-oeffentlich erreichbar und deckt sich mit der Fussnote in Kapitel 6. Das
-Firmen-Repo unter pyck-ai wird im Vortrag bewusst nicht gezeigt.
+Die URL ist geprueft: github.com/Bachelor-MMB7/flutter-remote-ui ist oeffentlich
+erreichbar und deckt sich mit der Fussnote in Kapitel 6. Das Firmen-Repo unter
+pyck-ai wird im Vortrag bewusst nicht gezeigt. Der QR-Code zeigt auf dieselbe
+URL und wurde lokal erzeugt.
 
-TODO QR-Code aufs Repo, falls jemand mitlesen will.
+Diese Folie bleibt waehrend der Fragerunde stehen, deshalb der QR-Code hier.
 -->
