@@ -100,7 +100,7 @@ time ... to the rendered frame".
 
 Dass Stufe 7 und das physische Aufleuchten fehlen, steht bewusst auf der
 Limitationen-Folie: *"From the tap arriving in the app to the flushed frame,
-not from finger to glass."*
+not from the finger to the visible step."*
 
 **Nicht sagen:** „Ich habe den Build gemessen." Dann kommt „und Layout und
 Paint?".

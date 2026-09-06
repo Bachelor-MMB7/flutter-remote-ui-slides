@@ -46,5 +46,4 @@ Die 100 Millisekunden sind für uns ein Richtwert, unter dem wir bleiben wollen.
 Frage Flushed und bei Schwelle wegen rastern: 
 Bei der Schwelle („warum nicht für die 100 ms?"): weil du bei einem Fünftel liegst und die fehlenden Teile das Vierfache deiner Spanne beitragen müssten.
 
-Soll ich die schärfere Schwellen-Antwort von vorhin und diese Trennung in die Notiz übernehmen?
 -->
