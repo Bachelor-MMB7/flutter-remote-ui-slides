@@ -15,8 +15,10 @@
 </div>
 
 <div class="repo-row">
-  <img class="repo-qr" src="/repo-qr.png" alt="" />
-  <div class="repo">github.com/Bachelor-MMB7/flutter-remote-ui</div>
+  <div class="repo">
+    <a href="https://github.com/Bachelor-MMB7/flutter-remote-ui" target="_blank" rel="noreferrer">github.com/Bachelor-MMB7/flutter-remote-ui</a>
+  </div>
+  <img class="repo-qr" src="/repo-qr.png" alt="QR code linking to the repository" />
 </div>
 
 <!--

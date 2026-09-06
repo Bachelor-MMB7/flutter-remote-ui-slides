@@ -1103,20 +1103,31 @@
   line-height: 1.5;
 }
 #app .slidev-layout .repo-row {
+  position: absolute;
+  right: 3.5rem;
+  bottom: 2.6rem;
   display: flex;
   align-items: center;
-  gap: 0.8rem;
-  margin-top: 1.5rem;
+  gap: 1rem;
 }
 #app .slidev-layout .repo-qr {
-  width: 4.6rem;
-  height: 4.6rem;
+  width: 4.8rem;
+  height: 4.8rem;
   border-radius: 0.3rem;
-  background: #fff;
 }
 #app .slidev-layout .repo {
   font-size: 0.85rem;
   color: rgba(242, 243, 247, 0.55);
+}
+#app #slide-content .slidev-layout .repo a {
+  border-bottom: 1px solid rgba(242, 243, 247, 0.25);
+  color: rgba(242, 243, 247, 0.7);
+  text-decoration: none;
+  transition: color 200ms ease, border-color 200ms ease;
+}
+#app #slide-content .slidev-layout .repo a:hover {
+  border-color: rgba(189, 147, 249, 0.7);
+  color: #bd93f9;
 }
 
 /* Conclusion — Contribution-Kasten */
