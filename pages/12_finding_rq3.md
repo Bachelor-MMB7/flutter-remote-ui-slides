@@ -4,14 +4,14 @@
 
 <div class="perf">
   <div class="perf-row">
-    <div class="perf-label">Remote UI</div>
+    <div class="perf-label"><span class="perf-kicker">Flutter + RFW</span>Remote UI</div>
     <div class="perf-track">
       <div class="perf-bar perf-rfw" style="width: 31.7%"></div>
       <span class="perf-value">5.3 ms</span>
     </div>
   </div>
   <div class="perf-row">
-    <div class="perf-label">Compiled baseline</div>
+    <div class="perf-label"><span class="perf-kicker">Flutter</span>Compiled baseline</div>
     <div class="perf-track">
       <div class="perf-bar perf-base" style="width: 29.9%"></div>
       <span class="perf-value">5.0 ms</span>

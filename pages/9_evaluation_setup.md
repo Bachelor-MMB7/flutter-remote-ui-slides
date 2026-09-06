@@ -19,7 +19,7 @@
     <div class="rq-key">RQ3</div>
     <div class="rq-body">
       <div class="rq-q">Controlled experiment</div>
-      <div class="rq-scope">1002 measured taps per implementation, A-B-B-A counterbalanced, first pass dropped as warm-up</div>
+      <div class="rq-scope">1002 automated taps per app, remote UI against a compiled baseline · A-B-B-A counterbalanced</div>
     </div>
   </div>
 </div>
