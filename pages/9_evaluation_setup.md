@@ -34,6 +34,7 @@
 RQ1 wurde funktional geprüft, mit einer Matrix aus 27 Testfällen am laufenden Client auf dem Gerät
 
 RQ2 hat zwei Teile. Die 24 Stunden für den Store-Weg kommen aus einem informed argument. Mein eigener Deployment Weg ist gemessen, 30 Deploys auf den Server und 30 Auslieferungen aufs Gerät.
+also dadurch dass sie keinen festen wert nennen und das varriert habe ich einen festgelegt 
 
 Bei RQ3 ist es ein controlled experiment wo ich pro app 1002 taps mit einem test script hab durchlaufen lassen gegen eine baseline app und dabei counterbalancing angewendet weil das Gerät dabei wärmer werden kann, deshalb A-B-B-A, damit das nicht auf eine der beiden fällt.
 -->
