@@ -8,7 +8,7 @@
 
 <div class="path-stage">
 
-<div class="path-panel change-panel" v-click-hide="1">
+<div class="path-panel change-panel" v-click="[1, 2]">
   <p class="path-caption">From a workflow-screen change to a new app build</p>
 
   <div class="change-rail">
@@ -42,7 +42,7 @@
   </div>
 </div>
 
-<div class="path-panel store-panel" v-click="1">
+<div class="path-panel store-panel" v-click="2">
   <p class="path-caption">Multi-step app store release process for iOS and Android <Ref n="2" /><Ref n="3" /></p>
 
   <div class="release-path">
@@ -84,11 +84,11 @@
 </div>
 
 <div class="cadence">
-  <div class="item" v-click="2">
+  <div class="item" v-click="3">
     <div class="value web">multiple times per day</div>
     <div class="tag">Web applications</div>
   </div>
-  <div class="item" v-click="2">
+  <div class="item" v-click="3">
     <div class="value">once every two weeks</div>
     <div class="tag">Mobile apps at Facebook and Netflix <Ref n="6" /></div>
   </div>
