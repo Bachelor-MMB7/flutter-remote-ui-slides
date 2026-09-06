@@ -824,7 +824,7 @@
 }
 
 .demo-video {
-  aspect-ratio: 3024 / 1750;
+  aspect-ratio: 1920 / 1112;
   object-fit: contain;
   background: #000;
   border: 1px solid rgba(242, 243, 247, 0.14);
