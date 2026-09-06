@@ -18,21 +18,9 @@ hideInToc: true
 
 \[6\] M. Nayebi, B. Adams, and G. Ruhe, "Release practices for mobile apps — What do users and developers think?," in *2016 IEEE 23rd Int. Conf. Softw. Anal., Evol., Reengineering (SANER)*, IEEE, 2016, pp. 552–562.
 
-\[7\] The Flutter Team, "Rfw 1.1.3," 2026. \[Online\]. Available: https://pub.dev/packages/rfw
+\[7\] shorebird.dev, "Overview." \[Online\]. Available: https://docs.shorebird.dev/code-push/
 
-\[13\] The Flutter Team, "Flutter architectural overview," 2026. \[Online\]. Available: https://docs.flutter.dev/resources/architectural-overview
-
-\[8\] stac.dev, "Stac 1.5.0," 2026. \[Online\]. Available: https://pub.dev/packages/stac
-
-\[9\] digia.tech, "Digia_ui 1.10.0," 2026. \[Online\]. Available: https://pub.dev/packages/digia_ui
-
-\[10\] Vyuh, "What is Vyuh?," 2026. \[Online\]. Available: https://docs.vyuh.tech/docs/intro/
-
-\[11\] N. Sharma, R. N. Tripathi, and V. Tripathi, "FreeFlow: A framework for server-driven mobile apps," *Science Talks*, vol. 14, p. 100445, 2025, doi: 10.1016/j.sctalk.2025.100445.
-
-\[12\] shorebird.dev, "Overview." \[Online\]. Available: https://docs.shorebird.dev/code-push/
-
-\[14\] J. Nielsen, *Usability Engineering*. Cambridge, MA, USA: AP Professional, 1993.
+\[8\] J. Nielsen, *Usability Engineering*. Cambridge, MA, USA: AP Professional, 1993.
 
 </div>
 
@@ -40,6 +28,6 @@ hideInToc: true
 Referenzfolie, im Vortrag nicht ansprechen. Liegt hinter dem Fazit, damit sie
 in der Diskussion aufrufbar ist.
 
-Nummern in Reihenfolge des ersten Auftretens. Waechst mit den weiteren Folien,
-dann neu durchnummerieren.
+Nummern in Reihenfolge des ersten Auftretens. Nur zitierte Quellen, geprueft
+gegen die Marker auf den Folien. Kommt eine Quelle dazu, neu durchnummerieren.
 -->

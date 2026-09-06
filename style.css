@@ -291,6 +291,16 @@
   color: rgba(242, 243, 247, 0.7);
 }
 
+/* Quellenfolie ruhig halten: das Theme faerbt Links cyan und Kursives gelb */
+#app #slide-content .slidev-layout .references a {
+  border-bottom: none;
+  color: rgba(242, 243, 247, 0.5);
+  text-decoration: none;
+}
+#app #slide-content .slidev-layout .references em {
+  color: inherit;
+}
+
 .lead {
   counter-reset: lead;
   margin-top: 0.4rem;
@@ -1272,6 +1282,36 @@
   text-align: center;
   font-size: 1.05rem;
   color: rgba(242, 243, 247, 0.88);
+}
+
+/* AI Tools Usage, Backup-Folie im Aufbau von Anhang E */
+#app .slidev-layout .ai-intro {
+  margin: 1.4rem 0 0;
+  max-width: 52rem;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: rgba(242, 243, 247, 0.58);
+}
+#app .slidev-layout .ai-table {
+  margin-top: 1.8rem;
+}
+#app .slidev-layout .ai-row {
+  display: grid;
+  grid-template-columns: 7rem 12rem 10rem 1fr;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid rgba(242, 243, 247, 0.1);
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: rgba(242, 243, 247, 0.78);
+}
+#app .slidev-layout .ai-head {
+  padding-bottom: 0.5rem;
+  border-bottom-color: rgba(242, 243, 247, 0.2);
+  font-size: 0.6rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: rgba(242, 243, 247, 0.45);
 }
 
 /* Limitations — zwei Gruppen: Grenzen der Evidenz, Grenzen des Artefakts */

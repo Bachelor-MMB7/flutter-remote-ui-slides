@@ -8,7 +8,7 @@ const { currentPage } = useNav()
 // Sichtbar: Problem (2), Question (4), Build (6), Demo (8),
 // Evaluation (9), Limits (13), Summary (14).
 // Summary umfasst Future work und Conclusion, wie Kapitel 9 der Thesis.
-const hiddenPages = [1, 3, 5, 7, 10, 11, 12, 15, 16]
+const hiddenPages = [1, 3, 5, 7, 10, 11, 12, 15, 16, 17]
 
 // Einblenden nach 1,1 Sek, Ausblenden nach 5 Sek
 const isVisible = ref(false)

@@ -31,7 +31,7 @@
 
 <p class="perf-out" v-click="1">Median and 95th percentile stay far below 100 ms in both implementations. The slowest single tap was 20.4 ms.</p>
 
-<p class="perf-src" v-click="1">100 ms is Nielsen's limit for a system that feels instantaneous, used here as a reference <Ref n="14" /></p>
+<p class="perf-src" v-click="1">100 ms is Nielsen's limit for a system that feels instantaneous, used here as a reference <Ref n="8" /></p>
 
 <!--
 Geflusht heißt: aus Sicht der App ist das Rendern fertig und die Szene ist an die Flutter Engine übergeben. Die rastert sie danach und macht sie für den Bildschirm bereit.

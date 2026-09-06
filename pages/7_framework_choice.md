@@ -25,7 +25,7 @@
     </div>
     <div class="pick-aside">
       <span class="chip chip-aside">Shorebird</span>
-      <span class="aside-text">Code push: every customer gets the same code, so no per-customer variants <Ref n="12" /></span>
+      <span class="aside-text">Code push: every customer gets the same code, so no per-customer variants <Ref n="7" /></span>
     </div>
   </div>
   <div class="pick-arrow" v-click="1">↓</div>
