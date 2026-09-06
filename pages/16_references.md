@@ -22,6 +22,8 @@ hideInToc: true
 
 \[8\] J. Nielsen, *Usability Engineering*. Cambridge, MA, USA: AP Professional, 1993.
 
+\[9\] Google LLC, "Target API level requirements for Google Play apps." \[Online\]. Available: https://support.google.com/googleplay/android-developer/answer/11926878
+
 </div>
 
 <AiTools />

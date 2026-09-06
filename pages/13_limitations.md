@@ -24,7 +24,7 @@
     </div>
     <div class="limit">
       <div class="limit-key"><strong>App releases do not disappear.</strong></div>
-      <div class="limit-say">Target API level requirements still force new builds.</div>
+      <div class="limit-say">Target API level requirements still force new builds <Ref n="9" /></div>
     </div>
   </div>
 </div>
