@@ -112,6 +112,7 @@ src: ./pages/9_evaluation_setup.md
 ---
 ---
 src: ./pages/10_finding_rq1.md
+clicks: 1
 ---
 ---
 src: ./pages/11_finding_rq2.md
