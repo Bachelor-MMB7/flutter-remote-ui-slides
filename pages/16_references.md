@@ -32,6 +32,8 @@ hideInToc: true
 
 \[12\] shorebird.dev, "Overview." \[Online\]. Available: https://docs.shorebird.dev/code-push/
 
+\[14\] J. Nielsen, *Usability Engineering*. Cambridge, MA, USA: AP Professional, 1993.
+
 </div>
 
 <!--

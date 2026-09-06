@@ -1245,6 +1245,101 @@
   color: rgba(242, 243, 247, 0.88);
 }
 
+/* RQ3 — Renderzeit als Anteil einer Bildperiode, massstaeblich */
+#app .slidev-layout .perf {
+  margin: 2.8rem auto 0;
+  max-width: 44rem;
+}
+#app .slidev-layout .perf-row {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  align-items: center;
+  column-gap: 1.1rem;
+  margin-bottom: 1.1rem;
+}
+#app .slidev-layout .perf-label {
+  font-size: 0.92rem;
+  text-align: right;
+  color: rgba(242, 243, 247, 0.88);
+}
+#app .slidev-layout .perf-track {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 1.6rem;
+  background: rgba(242, 243, 247, 0.04);
+}
+/* Masslinie: die Strecke ist eine Bildperiode, nicht ein Punkt am Ende */
+#app .slidev-layout .perf-dim {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 0.7rem;
+}
+#app .slidev-layout .perf-dim-line {
+  flex: 1 1 auto;
+  height: 1px;
+  background: rgba(242, 243, 247, 0.28);
+}
+#app .slidev-layout .perf-dim::before,
+#app .slidev-layout .perf-dim::after {
+  content: "";
+  position: absolute;
+  top: -0.3rem;
+  bottom: -0.3rem;
+  width: 1px;
+  background: rgba(242, 243, 247, 0.4);
+}
+#app .slidev-layout .perf-dim::before {
+  left: 0;
+}
+#app .slidev-layout .perf-dim::after {
+  right: 0;
+}
+#app .slidev-layout .perf-bar {
+  height: 100%;
+}
+#app .slidev-layout .perf-rfw {
+  background: rgba(80, 250, 123, 0.75);
+}
+#app .slidev-layout .perf-base {
+  background: rgba(242, 243, 247, 0.32);
+}
+#app .slidev-layout .perf-value {
+  margin-left: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: rgba(242, 243, 247, 0.92);
+}
+#app .slidev-layout .perf-scale {
+  margin-bottom: 0;
+}
+
+#app .slidev-layout .perf-tick {
+  flex: 0 0 auto;
+  font-size: 0.68rem;
+  color: rgba(242, 243, 247, 0.5);
+}
+#app .slidev-layout .perf-span {
+  margin: 1.6rem 0 0;
+  text-align: center;
+  font-size: 0.7rem;
+  color: rgba(242, 243, 247, 0.45);
+}
+#app .slidev-layout .perf-src {
+  margin: 0.7rem 0 0;
+  text-align: center;
+  font-size: 0.68rem;
+  color: rgba(242, 243, 247, 0.45);
+}
+#app .slidev-layout .perf-out {
+  margin: 2.2rem 0 0;
+  text-align: center;
+  font-size: 1.05rem;
+  color: rgba(242, 243, 247, 0.88);
+}
+
 /* RQ1 — Requirement Traceability Matrix als Raster */
 #app .slidev-layout .rtm {
   display: grid;
