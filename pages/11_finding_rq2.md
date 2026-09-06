@@ -1,11 +1,11 @@
-# RQ2 — 24 hours becomes half a minute
+# RQ2: 24 hours becomes half a minute
 
-<p class="criterion"><span class="so">SO2</span> Deployment time at most a tenth of the 24-hour reference value — the bar is 2.4 hours</p>
+<p class="criterion"><span class="so">SO2</span> Deployment time at most a tenth of the 24-hour reference value, so the bar is 2.4 hours</p>
 
 **15.0 s** median server deployment
 **358.5 ms** median client delivery
 
-Under half a minute once the client requests the updated definition — against a
+Under half a minute once the client requests the updated definition, against a
 24-hour reference scenario for the app store release path.
 
 A fix or a new variant can be deployed during the shift in which the need for it

@@ -1,4 +1,4 @@
-# RQ1 — One build, two customer workflows
+# RQ1: One build, one definition per customer
 
 <div class="criterion crit-two">
   <span class="so">SO1</span>
@@ -34,7 +34,7 @@
   </div>
 </div>
 
-<p class="rtm-total"><strong>27 of 27 cases pass</strong> — three of them negative</p>
+<p class="rtm-total"><strong>27 of 27 cases pass</strong>, three of them negative</p>
 
 <!--
 MERKSATZ: Demo fuehrt vor. RQ1 zeigt, wie es gebaut ist, und belegt, dass es

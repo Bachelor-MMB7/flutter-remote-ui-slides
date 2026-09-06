@@ -1,7 +1,7 @@
 # Limitations
 
 **The measured span is not the full path.** From the tap arriving in the app to
-the flushed frame — not from finger to glass.
+the flushed frame, not from finger to glass.
 
 **One setup.** One iPhone, one iOS version. Nothing here shows Android.
 

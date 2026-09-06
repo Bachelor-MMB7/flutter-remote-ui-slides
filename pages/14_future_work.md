@@ -1,18 +1,18 @@
 # Future work
 
-**Widen the evaluation** — Android, real customer definitions, slow connections,
+**Widen the evaluation.** Android, real customer definitions, slow connections,
 screens with long lists.
 
-**Measure the two open ends** — from outside the app, to cover the full path an
+**Measure the two open ends.** From outside the app, to cover the full path an
 operator perceives.
 
-**Data, not just screens** — how entries made offline reconcile once they travel
+**Data, not just screens.** How entries made offline reconcile once they travel
 to a backend.
 
-**Behavior from the definition** — whether Stac's built-in actions could carry a
+**Behavior from the definition.** Whether Stac's built-in actions could carry a
 warehouse workflow.
 
-**Reliability of generation** — several runs across workflows, errors counted
+**Reliability of generation.** Several runs across workflows, errors counted
 against the catalog.
 
 <!--
