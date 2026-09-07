@@ -30,15 +30,5 @@
 </div>
 
 <!--
-1:30 — Proaktiv, nicht defensiv vortragen. Das sind bewusste Scope-
-Entscheidungen, die in der Arbeit begruendet sind, keine Versaeumnisse.
-
-Die Gruppierung selbst ist das Argument: links Grenzen der Evidenz, rechts
-Grenzen des Artefakts. Beim Sprechen die beiden Ueberschriften nennen, dann
-die Punkte nur antippen statt vorlesen.
-
-Diese Folie nimmt die wahrscheinlichsten Prueferfragen vorweg.
-
-Zu "Not the full path", falls nachgefragt wird:
-docs/frage-wo-liegt-der-overhead.md, Abschnitt zur 100-ms-Schwelle.
+1 mal jährlich app release bei google
 -->

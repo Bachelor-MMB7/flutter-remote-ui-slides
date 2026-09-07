@@ -133,10 +133,13 @@
 >
 > Damit ist die grundsätzliche Architektur klar. Für die technische Umsetzung brauche ich nun ein Framework, das solche Definitionen interpretieren und als native Flutter-Widgets rendern kann.“
 
+##############
 Die Definitions sind nur Beschreibungen das ist kein code der funktional ist und nachgeladen wird in die app
 
 Definition und Daten kommen erst zur Laufzeit auf dem Gerät zusammen
 
+Links steht, welcher Wert angezeigt wird. Rechts steht, wo dieser Wert liegt, im Gerät,
+###############
 
 ZU METHOD:
 
