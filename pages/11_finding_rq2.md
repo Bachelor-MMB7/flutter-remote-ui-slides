@@ -1,4 +1,4 @@
-# RQ2: 24 hours becomes half a minute
+# RQ2: 24 hours becomes under half a minute
 
 <p class="criterion"><span class="so">SO2</span> Deployment time at most a tenth of the 24-hour reference value, so the bar is 2.4 hours</p>
 

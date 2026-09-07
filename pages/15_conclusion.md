@@ -1,6 +1,6 @@
 # Conclusion
 
-<div class="headline-result">24 hours becomes half a minute</div>
+<div class="headline-result">24 hours becomes under half a minute</div>
 
 <div class="outcomes">
   <p>One build, one definition per customer.</p>
