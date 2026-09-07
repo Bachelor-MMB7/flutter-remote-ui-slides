@@ -101,4 +101,8 @@
 Die Lagerprozesse dieser Kunden unterscheiden sich — zum Beispiel ist der
 Wareneingang nicht ueberall gleich aufgebaut. In einer klassischen Flutter-App
 ist die Struktur dieser Screens fest in die App eingebaut. Möchte man einen kundenspezifischen Screen ändern, muss man die App anpassen und einen neuen Build veröffentlichen über den App Store."
+
+app build ist fertiges artefakt
+
+Weil mein Beitrag ein gebautes und evaluiertes Artefakt ist, kein Erklärungsmodell. Genau dafür ist dieses Paradigma da.
 -->
